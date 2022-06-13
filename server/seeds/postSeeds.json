@@ -1,0 +1,51 @@
+[
+  {
+    "title": "rate my code",
+    "username": 1,
+    "postContent": "paste code file here",
+    "postRepoLink": "http://github.com",
+    "deployedApplication": "http://heroku.com",
+    "comments": ""
+  },
+  {
+    "title": "advice on css",
+    "username": 2,
+    "postContent": "paste code file here",
+    "postRepoLink": "http://github.com",
+    "deployedApplication": "http://heroku.com",
+    "comments": ""
+  },
+  {
+    "title": "help find syntax error",
+    "username": 3,
+    "postContent": "paste code file here",
+    "postRepoLink": "http://github.com",
+    "deployedApplication": "http://heroku.com",
+    "comments": ""
+  },
+  {
+    "title": "dry my code",
+    "username": 4,
+    "postContent": "paste code file here",
+    "postRepoLink": "http://github.com",
+    "deployedApplication": "http://heroku.com",
+    "comments": ""
+  },
+  {
+    "title": "improve functionality",
+    "username": 5,
+    "postContent": "paste code file here",
+    "postRepoLink": "http://github.com",
+    "deployedApplication": "http://heroku.com",
+    "comments": ""
+  },
+  {
+    "title": "what's broken??!",
+    "username": 6,
+    "postContent": "paste code file here",
+    "postRepoLink": "http://github.com",
+    "deployedApplication": "http://heroku.com",
+    "comments": ""
+  
+  }
+]

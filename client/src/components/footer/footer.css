@@ -1,0 +1,26 @@
+
+
+#landing-footer {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+  
+
+    padding: 100px;
+    bottom: 0;
+    background-image: url(../../assets/images/field.jpg);
+    background-image: url(../../assets/images/park.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center-top;
+    background-position: 80%;
+
+    height: 100%;
+    padding: 10%;
+}
+
+#madeBy {
+    font-weight: lighter;
+    font-size: smaller;
+}

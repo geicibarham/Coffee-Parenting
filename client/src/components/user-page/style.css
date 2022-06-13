@@ -1,0 +1,69 @@
+h1 {
+  font-size: 30px;
+  color:#774c2a;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.user-post-page {
+  display: flex;
+
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+  margin-left: 10px;
+  /* justify-content: left;
+  align-items: center; */
+}
+.post-form {
+ margin-left: 10px;
+ width: 70vh;
+  border: 3px solid var(--secondary-color);
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  margin: 3.5%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: black;
+  border: solid 1px #774c2a;
+}
+.form-input {
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  display: block;
+  /* padding: 7px 15px; */
+  font-size: 16px;
+  /* width: 100%; */
+  margin-bottom: 15px;
+  color: black;
+}
+.form-input:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+.btn {
+  float: right;
+  margin: auto;
+  padding: 10px;
+}
+.btn:hover{
+    background-color: #774c2a;
+    color:white;
+}
+.merge{
+  display: flex;
+  flex-direction: row;
+}
+
+#post{
+  width: 80%;
+}
+
+::placeholder {
+  color: #774c2a;
+ font-weight: lighter;
+ font-size: smaller;
+}
