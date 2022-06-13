@@ -58,7 +58,6 @@ export const QUERY_ME = gql`
     post {
       _id
       title
-      deployedApplication
       createdAt
       username
       commentCount

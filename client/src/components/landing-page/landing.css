@@ -4,13 +4,12 @@
   
   background-repeat: no-repeat;
   height: 100%;
-  padding: 280px;
+  padding: 250px;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
   text-shadow: 2px 2px black;
   justify-content: flex-start;
-  align-items: flex-start;
 
 }
 
@@ -32,7 +31,7 @@
 
 .text {
   margin-right: 0px;
-  
+  margin: 20px 20px;
 }
 
 @media screen and (max-width: 980px) {

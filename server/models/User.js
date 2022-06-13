@@ -5,13 +5,11 @@ const bcrypt = require('bcrypt')
 const userSchema = new Schema({
   username: {
     type: String,
-    unique: true,
     required: "You must enter a username friend",
     trim: true,
   },
   email: {
     type: String,
-    unique: true,
     match: [/.+@.+\..+/, "Please enter a valid e-mail address friend"],
   },
   password: {
@@ -24,11 +22,6 @@ const userSchema = new Schema({
     default: Date.now,
     get: (timestamp) => dateFormat(timestamp),
   },
-  // userGithub: {
-  //   type: String,
-  //   unique: true,
-  //   required: 'Enter your Github link friend'
-  // },
 
   votes: [
     {

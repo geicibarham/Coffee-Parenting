@@ -121,16 +121,13 @@ const resolvers = {
         const { postId,
           title,
           postContent,
-          postRepoLink,
-          deployedApplication
         } = args
         const updatePost = await Post.findByIdAndUpdate(
           postId,
           {
             title: title,
             postContent: postContent,
-            postRepoLink: postRepoLink,
-            deployedApplication: deployedApplication
+        
           }
         );
         return updatePost

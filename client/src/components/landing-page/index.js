@@ -2,7 +2,7 @@ import dog from '../../assets/images/dog-cartoon.png'
 import css from './landing.css'
 import Footer from '../footer';
 import Header from '../header';
-
+import Join from '../join';
 
 function LandingPage() {
     return (
@@ -14,7 +14,7 @@ function LandingPage() {
                    
               
                     </h4>
-                   
+                    < br />
                     <h5 className="text">
                     You don't have to do it alone.. < br />
                     Connect with other parents for a virtual coffee!< br />
@@ -23,9 +23,13 @@ function LandingPage() {
                         
 
                        </h5>
+                     
                 </div>
-                {/* <img id="dog" style={{ height: "400px" ,width:"500px"}} src={dog} alt="cute dog with glasses" /> */}
+             
+                
             </section>
+            
+          
             <div>
                 < Footer />
             </div>

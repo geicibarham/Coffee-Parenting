@@ -1,5 +1,5 @@
 import React from "react";
-import { useMutation } from '@apollo/client';
+
 import { useQuery } from '@apollo/client';
 import { QUERY_POST } from '../../utils/queries';
 import { useParams } from 'react-router-dom';
@@ -13,8 +13,6 @@ import { ADD_VOTE } from '../../utils/mutations';
 import { ADD_FLAG } from '../../utils/mutations';
 
 function SinglePost(props) {
-  const [addvote, { error }] = useMutation(ADD_VOTE)
-  const [addFlag] = useMutation(ADD_FLAG)
   const { id: postId } = useParams();
 
   const { loading, data } = useQuery(QUERY_POST, {
@@ -26,56 +24,18 @@ function SinglePost(props) {
   if (loading) {
     return <div>Loading...</div>;
   }
-  const handleVote = async (postId) => {
-    console.log(postId)
-    try {
-      await addvote({
-        variables: { postId },
-        refetchQueries: [
-
-          { query: QUERY_POST }, // DocumentNode object parsed with gql
-
-          'post' // Query name
-
-        ],
-      })
-
-
-    } catch (e) {
-      console.log(e)
-    }
-
-  }
-
-  const handleFlag = async (postId) => {
-    console.log(postId)
-    try {
-      await addFlag({
-        variables: { postId },
-        refetchQueries: [
-
-          { query: QUERY_POST }, // DocumentNode object parsed with gql
-
-          'post' // Query name
-
-        ],
-      })
-    } catch (e) {
-      console.log(e)
-    }
-  }
   return (
     <>
       <section id="posts">
         <div>
           <div className="card mb-3">
-          {post.title ? <p className="card-header"
-                style={{ textAlign: "center", color: "white" }}>
-                 {post.title}
+            <p className="card-header"
+              style={{ textAlign: "center", color: "white" }}>
+              <span style={{ fontWeight: 700 }} className="text-light">
+                {post.title}
+              </span>{' '}
 
-
-            </p> : ''}
-           
+            </p>
             <div className="card-body">
 
               <p className="mb-0">{post.postContent} /</p>
@@ -87,7 +47,7 @@ function SinglePost(props) {
                 {post.createdAt}
               </p>
 
-              <img onClick={handleVote} class="icon" style={{ height: "30px" }}
+              <img class="icon" style={{ height: "30px" }}
                 src={heart} alt="heart icon fro likes" />&nbsp; &nbsp;
               <span >
                 {post.voteCount ? post.voteCount : ''} </span>
