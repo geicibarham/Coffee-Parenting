@@ -11,6 +11,7 @@ function Main() {
   console.log("posts", posts);
 
   return (
+    <section id="main">
     <div className="flex-row justify-space-between">
       <div className="col-12 mb-3">
         {loading ? (
@@ -19,9 +20,10 @@ function Main() {
           <>
             <h3
               style={{
+                textShadow: "2px 2px black",
                 textAlign: "center",
                 paddingTop: "10px",
-                color: "#774c2a",
+                color: "white",
               }}
             >
               What other parents are saying... <img id="glass" src={glass} />
@@ -33,6 +35,7 @@ function Main() {
         )}
       </div>
     </div>
+    </section>
   );
 }
 

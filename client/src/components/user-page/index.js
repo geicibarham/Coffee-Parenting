@@ -52,14 +52,6 @@ function UserPage() {
     
   }
 
-  // useEffect(() => {
-  //     let result = await fetch.get('/user-page')
-  //     setPostList(await result.json())
-  //   }, []);
-  //   if (response.ok) {
-  //     document.location.replace('/');
-  //   } else {
-  //     alert(response.statusText);
 
   return (
     <>
@@ -74,24 +66,24 @@ function UserPage() {
             <h1>Create New Post</h1>
             <div>
               <label htmlFor="post-title">Title:</label>
-              <input className="form-input"  placeholder=" Please enter the name of your project"
+              <input className="form-input"  placeholder="What is going on?"
                type="text"  value={title}id="post-title" name="post-title"
                onChange={e => setTitle(e.target.value)} />
             </div>
           
           
             <div>
-              <label htmlFor="content">Justify my post:</label>
+              <label htmlFor="content">Post</label>
               <textarea className="form-input" id="justify" 
-               placeholder="What else would you like to share about your project?"
+               placeholder="What would you like so share?"
               value={justify}name="justify" 
               onChange={e => setJustify(e.target.value)}></textarea>
             </div>
             <div className='merge'>
-              <img id="dog" style={{ height: "85px", width: "85px" }} src={dog} alt="cute dog with glasses" />
+              
 
               <button type="submit" className='btn'>
-                Merge my code
+               Submit
               </button>
             </div>
           </form>

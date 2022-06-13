@@ -1,6 +1,6 @@
 h1 {
   font-size: 30px;
-  color:#774c2a;
+  color:#1b2a4c;
   text-align: center;
   font-weight: bold;
 }
@@ -30,8 +30,8 @@ h1 {
   border: solid 1px #774c2a;
 }
 .form-input {
-  background-color: rgba(255, 255, 255, 0.75);
-  border: 1px solid var(--secondary-color);
+  background-color: white;
+  border: 1px solid #1b2a4c;
   border-radius: 10px;
   display: block;
   /* padding: 7px 15px; */
@@ -50,7 +50,7 @@ h1 {
   padding: 10px;
 }
 .btn:hover{
-    background-color: #774c2a;
+    background-color: #1b2a4c;
     color:white;
 }
 .merge{
@@ -63,7 +63,7 @@ h1 {
 }
 
 ::placeholder {
-  color: #774c2a;
+  color: #1b2a4c;
  font-weight: lighter;
  font-size: smaller;
 }

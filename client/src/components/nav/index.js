@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import css from "./nav.css";
 import Auth from "../../utils/auth";
 import { NavLink } from "react-router-dom";
-<style>
+
+function Nav() {
+  <style>
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 </style>
-function Nav() {
   const logout = (event) => {
     event.preventDefault();
     Auth.logout();
@@ -14,11 +15,11 @@ function Nav() {
 
   return (
     <nav id="main-nav">
-      <h1 id="title">
+      <h2 id="title">
         <NavLink id="coffee"className="titleBtnLink" to="/">
          Coffee & Parenting
         </NavLink>
-      </h1>
+      </h2>
 
       <ul id="nav-list">
         <li className="navBtn">

@@ -1,37 +1,27 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import heart from '../../assets/images/heart.png'
-import flag from '../../assets/images/red-flag.png'
+import omg from '../../assets/images/omg.png'
 import Auth from '../../utils/auth'
 
 const PostCard = ({ post, handleFlag, handleVote }) => {
     // let [voteCount, setVoteCount] = useState(post.voteCount)
     return (
         <div key={post._id} className="card mb-3">
-
-            <p className="card-header"
+            
+            {post.title ? <p className="card-header"
                 style={{ textAlign: "center", color: "white" }}>
                 <Link to={`/post/${post._id}`}> {post.title}</Link>
 
 
-            </p>
+            </p> : ''}
+         
 
             <div className="card-body">
-
+            <Link style={{color:"black"}}to={`/post/${post._id}`}> {post.title}
                 <p className="mb-0">{post.postContent}
                 </p>
-
-                <a style={{color:"black"}}className="mb-0" href={post.postRepoLink}>Repo Link:{post.postRepoLink}
-                </a>
-
-                <p className="mb-0">
-
-                    {post.deployedApplication ?
-                        `Deployed at:  ` + post.deployedApplication : ''}
-                </p>
-
-
-
+                </Link>
                 <p>
                     {post.username}&nbsp;
                     posted on &nbsp;
@@ -43,21 +33,23 @@ const PostCard = ({ post, handleFlag, handleVote }) => {
                 }} class="icon" style={{ height: "30px" }}
                     src={heart} alt="heart icon fro likes" />&nbsp; &nbsp;
                 <span >
-             
+
 
                     {post.voteCount ? post.voteCount : ''} </span>
                 &nbsp;  &nbsp;
 
 
 
-                <img onClick={() => handleFlag(post._id)} class="icon" style={{ height: "30px" }} src={flag}
+                <img onClick={() => handleFlag(post._id)} class="icon" style={{ height: "30px" }} src={omg}
                     alt="heart icon fro likes" />
-                <span >
+                <span >  &nbsp;
                     {post.flagCount ? post.flagCount : ''} </span>
-                &nbsp;  &nbsp; < br/>
-                < br/>
-              {!Auth.loggedIn() && <p style={{fontWeight:'lighter', 
-              fontSize:'12px', color: '#774c2a'}}>Only logged in users can like/flag a post</p>}
+                &nbsp;  &nbsp; < br />
+                < br />
+                {!Auth.loggedIn() && <p style={{
+                    fontWeight: 'lighter',
+                    fontSize: '12px', color: '#774c2a'
+                }}>Only logged in users can react to posts</p>}
 
                 <Link to={`/post/${post._id}`}>
                     <p className="ternary">

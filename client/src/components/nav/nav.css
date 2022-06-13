@@ -12,11 +12,13 @@
   list-style: none;
   width: 100%;
 }
+
 header nav {
   margin: 7px 0;
 }
 #coffee{
   font-family: 'Pinyon Script', cursive;
+
   font-weight: lighter; 
 }
 #nav-list {
@@ -27,7 +29,8 @@ header nav {
 
 #title {
  margin-left: 10px;
- color:red
+ font-family: 'Pinyon Script', cursive;
+
 }
 li{
   padding:10px;
