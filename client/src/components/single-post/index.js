@@ -69,13 +69,13 @@ function SinglePost(props) {
       <section id="posts">
         <div>
           <div className="card mb-3">
-            <p className="card-header"
-              style={{ textAlign: "center", color: "white" }}>
-              <span style={{ fontWeight: 700 }} className="text-light">
-                {post.title}
-              </span>{' '}
+          {post.title ? <p className="card-header"
+                style={{ textAlign: "center", color: "white" }}>
+                 {post.title}
 
-            </p>
+
+            </p> : ''}
+           
             <div className="card-body">
 
               <p className="mb-0">{post.postContent} /</p>

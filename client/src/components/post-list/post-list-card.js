@@ -48,7 +48,7 @@ const PostCard = ({ post, handleFlag, handleVote }) => {
                 < br />
                 {!Auth.loggedIn() && <p style={{
                     fontWeight: 'lighter',
-                    fontSize: '12px', color: '#774c2a'
+                    fontSize: '12px', color: 'black'
                 }}>Only logged in users can react to posts</p>}
 
                 <Link to={`/post/${post._id}`}>

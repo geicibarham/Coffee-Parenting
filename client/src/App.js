@@ -17,6 +17,7 @@ import UserPage from "./components/user-page";
 import Join from "./components/join";
 import NoMatch from "../../client/src/pages/NoMatch";
 import SinglePost from "./components/single-post";
+import Activities from "./components/activities";
 
 
 const httpLink = createHttpLink({
@@ -57,6 +58,7 @@ function App() {
          
           <Routes>
             <Route path="/" element={<LandingPage />} />
+            <Route path="/activities" element={<Activities />} />
             <Route path="/join" element={<Join />} />
             <Route path="/login" element={<Login />} />
             <Route path="/main" element={<Main />} />
