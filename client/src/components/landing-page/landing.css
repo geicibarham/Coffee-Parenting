@@ -1,44 +1,38 @@
 #dog-container {
   display: flex;
-
-  
-  
   background-image: url(../../assets/images/park.jpg);
-
- 
-  /* background-position: center-top; */
-background-repeat: no-repeat;
+  
+  background-repeat: no-repeat;
   height: 100%;
-  padding: 250px;
-  background-size:cover;
+  padding: 280px;
+  background-size: cover;
   background-attachment: fixed;
- width: 100%;
- 
+  width: 100%;
+  text-shadow: 2px 2px black;
+  justify-content: flex-start;
+  align-items: flex-start;
+
 }
 
-#dog-container img {
-  margin-left: 50px;
-  margin-left: auto;
-}
+
 
 .text-container {
   display: flex;
-  flex-wrap: wrap;
+  
   flex-direction: column;
   justify-content: flex-start;
-  margin-right: 50px;
+  align-items: flex-start;
+ 
   margin-left: 0px;
   color: white;
 
 }
 
-#working-app {
-  padding-bottom: 30px;
-}
+
 
 .text {
-  margin-right: 50px;
-  margin: 20px 20px;
+  margin-right: 0px;
+  
 }
 
 @media screen and (max-width: 980px) {

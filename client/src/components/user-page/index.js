@@ -10,8 +10,6 @@ import PostList from '../post-list'
 
 function UserPage() {
   const [title, setTitle] = useState('');
-  const [github, setGithub] = useState('');
-  const [deploy, setDeploy] = useState('');
   const [justify, setJustify] = useState('');
 
   const [postList, setPostList] = useState([]);
@@ -28,16 +26,16 @@ function UserPage() {
     try {
       await addPost({
         variables: {
-          title, postRepoLink: github,
-          deployedApplication: deploy, postContent: justify,
+          title,
+         postContent: justify,
          
          
         }
       })
       refetch()
       setTitle('');
-      setGithub('');
-      setDeploy('');
+     
+     
       setJustify('');
     } catch (e) {
       console.log(e)
@@ -80,18 +78,8 @@ function UserPage() {
                type="text"  value={title}id="post-title" name="post-title"
                onChange={e => setTitle(e.target.value)} />
             </div>
-            <div>
-              <label htmlFor="github">GitHub Repo Link:</label>
-              <input className="form-input" placeholder=" Please enter the link for your repo"
-              id="github" value={github}name="github"
-               onChange={e => setGithub(e.target.value)} />
-            </div>
-            <div>
-              <label htmlFor="deploy">Deployed App Link:</label>
-              <input className="form-input" placeholder="Please enter the link for deployed app"
-               id="appLink"value={deploy} name="appLink" 
-              onChange={e => setDeploy(e.target.value)} />
-            </div>
+          
+          
             <div>
               <label htmlFor="content">Justify my post:</label>
               <textarea className="form-input" id="justify" 

@@ -7,8 +7,6 @@ export const QUERY_POSTS = gql`
     title
     postContent
     username
-    postRepoLink
-    deployedApplication
     createdAt
     flags {
       _id
@@ -37,8 +35,6 @@ query Post($id: ID!) {
     _id
     title
     postContent
-    postRepoLink
-    deployedApplication
     createdAt
     username
    voteCount
@@ -58,13 +54,10 @@ export const QUERY_ME = gql`
     _id
     username
     email
-    userGithub
     friendCount
     post {
       _id
       title
-      postContent
-      postRepoLink
       deployedApplication
       createdAt
       username

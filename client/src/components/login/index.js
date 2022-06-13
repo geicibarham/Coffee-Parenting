@@ -47,7 +47,7 @@ const Login = () => {
           <form className="form-style" id="login"
             onSubmit={handleFormSubmit}>
             <h5 style={{
-              color: "#774c2a",
+              color: "black",
               textAlign: "center",
               paddingBottom: "8px"
             }}>Welcome Back! </h5>

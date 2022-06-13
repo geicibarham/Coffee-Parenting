@@ -13,7 +13,7 @@ const Join = () => {
 
     const [formState, setFormState] = useState({
         username: '', email: '',
-        password: '', userGithub: '',
+        password: '', 
     });
     const [addUser, { error }] = useMutation(ADD_USER);
 
@@ -44,7 +44,7 @@ const Join = () => {
     }
         return (
             <>
-                <main className="">
+                <main className="join-form">
                     <div className="myForm">
 
                         {/* <div className="card">
@@ -70,15 +70,7 @@ const Join = () => {
                                 value={formState.email}
                                 onChange={handleChange}
                             />
-                            <input
-                                className="form-input"
-                                placeholder="Your user Github"
-                                name="userGithub"
-                                type="userGithub"
-                                id="userGithub"
-                                value={formState.userGithub}
-                                onChange={handleChange}
-                            />
+                        
 
                             <input
                                 className="form-input"
@@ -89,20 +81,14 @@ const Join = () => {
                                 value={formState.password}
                                 onChange={handleChange}
                             />
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox"
-                                    id="gridCheck" />
-                                <label id="warn" className="form-check-label" htmlFor="gridCheck">
-                                    I acknowledge that this app is only for working code that can be improved, not for broken apps.
-                                </label>
-                            </div>
+                           
                             <div className="submit">
                                 <button id="btn-submit" className="btn btn-light" data-testid="button" type="submit">
                                     Submit
                                 </button>
                             </div>
                         </form>
-                        <img id="dog" style={{ height: "200px", width: "200px", left: 0 }} src={dog} alt="cute dog with glasses" />
+                       
                     </div>
 
                     {error && <div>Signup failed</div>}
@@ -111,7 +97,7 @@ const Join = () => {
 
 
                 </main>
-                < Footer />
+             
             </>
         )
 

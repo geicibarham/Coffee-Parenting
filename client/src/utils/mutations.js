@@ -13,8 +13,8 @@ export const LOGIN_USER = gql`
 `;
 
 export const ADD_USER = gql`
-  mutation addUser($username: String!, $userGithub: String!, $email: String!, $password: String!, $bio: String) {
-    addUser(username: $username,userGithub:$userGithub, email: $email, password: $password, bio: $bio) {
+  mutation addUser($username: String!, $email: String!, $password: String!, $bio: String) {
+    addUser(username: $username, email: $email, password: $password, bio: $bio) {
       token
       user {
         username
@@ -24,8 +24,8 @@ export const ADD_USER = gql`
 `;
 
 export const EDIT_USER = gql`
-mutation updateUser($username: String, $userGithub: String, $email: String, $bio: String) {
-  updateUser(username: $username, userGithub: $userGithub, email: $email, bio: $bio) {
+mutation updateUser($username: String, $email: String, $bio: String) {
+  updateUser(username: $username, email: $email, bio: $bio) {
     _id
     username
     email
@@ -35,13 +35,11 @@ mutation updateUser($username: String, $userGithub: String, $email: String, $bio
 }`
 
 export const ADD_POST = gql`
-  mutation addPost($title: String!, $postContent: String!, $postRepoLink: String!, $deployedApplication: String) {
-    addPost(title: $title, postContent: $postContent, postRepoLink: $postRepoLink, deployedApplication: $deployedApplication) {
+  mutation addPost($title: String!, $postContent: String!) {
+    addPost(title: $title, postContent: $postContent) {
       _id
     title
     postContent
-    postRepoLink
-    deployedApplication
     createdAt
     username
     }
@@ -49,12 +47,11 @@ export const ADD_POST = gql`
 `;
 
 export const EDIT_POST = gql`
-mutation editPost($postContent: String!, $postRepoLink: String!, $title: String, $deployedApplication: String) {
-  editPost(postContent: $postContent, postRepoLink: $postRepoLink, title: $title, deployedApplication: $deployedApplication) {
+mutation editPost($postContent: String!, $title: String) {
+  editPost(postContent: $postContent, title: $title) {
     _id
     title
     postContent
-    postRepoLink
     deployedApplication
   }
 }
@@ -80,8 +77,6 @@ mutation addComment($postId: ID!, $commentText: String!) {
     _id
     title
     postContent
-    postRepoLink
-    deployedApplication
     createdAt
     username
     commentCount

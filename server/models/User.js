@@ -24,11 +24,11 @@ const userSchema = new Schema({
     default: Date.now,
     get: (timestamp) => dateFormat(timestamp),
   },
-  userGithub: {
-    type: String,
-    unique: true,
-    required: 'Enter your Github link friend'
-  },
+  // userGithub: {
+  //   type: String,
+  //   unique: true,
+  //   required: 'Enter your Github link friend'
+  // },
 
   votes: [
     {

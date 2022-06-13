@@ -45,23 +45,7 @@ const resolvers = {
       return Post.findOne({ _id })
         // .populate('comments')
     },
-    // posts: async () => {
-    //   return Post.find()
-    //     .populate('comments')
-    // },
 
-    // post: async (parent,  { _id }) => {
-    //   return Post.findOne({ _id })
-    //   .populate('comments')
-    // },
-
-    // comments: async (parent, { username }) => {
-    //   const params = username ? { username } : {};
-    //   return Comment.find(params).sort({ createAt: -1 })
-    // },
-    // comment: async (parent, { _id }) => {
-    //   return Comment.findOne({ _id });
-    // }
   },
 
   Mutation: {

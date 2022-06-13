@@ -10,18 +10,25 @@ function LandingPage() {
         
             <section id="dog-container">
                 <div className="text-container">
-                    <h3 id="working-app" className="text">Parenting is hard. < br />
-                  
-                    </h3>
-                    <h4 className="text">You don't have to do it  alone! <br />
-                    
-                       </h4>
+                    <h4 id="working-app" className="text">Parenting is hard. 
+                   
+              
+                    </h4>
+                   
+                    <h5 className="text">
+                    You don't have to do it alone.. < br />
+                    Connect with other parents for a virtual coffee!< br />
+                       </h5>
+                       <h5>
+                        
+
+                       </h5>
                 </div>
                 {/* <img id="dog" style={{ height: "400px" ,width:"500px"}} src={dog} alt="cute dog with glasses" /> */}
             </section>
-            {/* <div>
+            <div>
                 < Footer />
-            </div> */}
+            </div>
         </>
     )
 }

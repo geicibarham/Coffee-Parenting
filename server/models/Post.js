@@ -8,7 +8,7 @@ const Flag = require('./Flag')
 const postSchema = new Schema({
   title: {
     type: String,
-    required: 'Please enter a title'
+    
   },
   postContent: {
     type: String,
@@ -16,13 +16,8 @@ const postSchema = new Schema({
     minlength: 1,
     maxlength: 280
   },
-  postRepoLink: {
-    type: String,
-    required: 'Please enter a link to your repo!'
-  },
-  deployedApplication: {
-    type: String,
-  },
+
+ 
   createdAt: {
     type: Date,
     default: Date.now,

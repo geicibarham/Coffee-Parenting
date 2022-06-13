@@ -24,7 +24,7 @@ function Main() {
                 color: "#774c2a",
               }}
             >
-              Check this out <img id="glass" src={glass} />
+              What other parents are saying... <img id="glass" src={glass} />
             </h3>
 
             {/* <PostList posts={posts} /> */}
