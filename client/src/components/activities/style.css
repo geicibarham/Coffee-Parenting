@@ -1,30 +1,45 @@
-
-#activity-container{
-
+#six-month-container {
+padding-bottom: 30px;
 }
 
-#activity-list{
-  
-    color: black !important;;
+#image {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    font-weight: lighter;
+}
+
+#text-image {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    
+}
+
+#activity-list {
+
+    color: black !important;
+    ;
     background-color: #1b2a4c;
     width: 20%;
     list-style: none;
     border-radius: 20px;
     margin-left: 15px;
     padding-top: 20px;
-   
+
 }
 
-li{
+li {
     padding-bottom: 20px;
 }
 
 li:hover {
-    background-color: none!important;
-  color:none
+    background-color: none !important;
+    color: none
 }
+
 #container {
- 
+
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-evenly; */
