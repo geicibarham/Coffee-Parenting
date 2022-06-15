@@ -1,8 +1,8 @@
-#main-nav {
+nav {
   background-color:#1b2a4c;
   flex-wrap: nowrap;
   position: -webkit-sticky;
-  position: sticky;
+ 
   color: white;
   font-size: 16px;
   display: flex;
@@ -11,19 +11,28 @@
   align-items: center;
   list-style: none;
   width: 100%;
-  padding: 10px;
+  position: sticky!important;
+  position: fixed;
+  top: 0;
+z-index: 999;
+  
 }
 
 header nav {
   margin: 7px 0;
+ 
 }
 #coffee{
   font-family: 'Pinyon Script', cursive;
 
   font-weight: lighter; 
 }
+#coffee:hover{
+color:white;
+text-decoration: none;
+}
 #nav-list {
-  padding:15px;
+  padding:10px;
   list-style: none;
   display: flex;
 }
@@ -33,6 +42,8 @@ header nav {
  font-family: 'Pinyon Script', cursive;
 
 }
+
+
 li{
   padding:10px;
   text-decoration: none;
@@ -48,10 +59,7 @@ a{
     color:white;
     text-decoration: none;
 }
-a:hover {
-  text-decoration: none;
-  color:black;
-}
+
 li:hover {
   background-color: #f4e4c2;
   border-radius: 15px;
@@ -98,7 +106,7 @@ li:hover {
        font-size: 20px;
        top: 0;
        left: 0;
-       height: 100%;
+     
        width: 100%;
        flex-direction: row;
        font-weight: bold;

@@ -18,11 +18,11 @@ function Nav() {
   return (
 
     <nav id="main-nav">
-      <h2 id="title">
+      <h3 id="title">
         <NavLink id="coffee" className="titleBtnLink" to="/">
           Coffee & Parenting
         </NavLink>
-      </h2>
+      </h3>
 
       <ul id="nav-list">
       <Dropdown title="Dropdown button">
@@ -34,10 +34,11 @@ function Nav() {
         <Dropdown.Item href="/main">Feed</Dropdown.Item>
 
           {Auth.loggedIn() && (
-            
+            <>
               <Dropdown.Item href="/user-page">My Posts</Dropdown.Item>
-
-            
+         
+              <Dropdown.Item href="/activities">Activities</Dropdown.Item>
+              </>
           )}
 
 
