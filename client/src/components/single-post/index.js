@@ -27,11 +27,13 @@ function SinglePost(props) {
   return (
     <>
       <section id="posts">
+     
         <div>
           <div className="card mb-3">
             <p className="card-header"
               style={{ textAlign: "center", color: "white" }}>
               <span style={{ fontWeight: 700 }} className="text-light">
+             
                 {post.title}
               </span>{' '}
 
@@ -43,6 +45,7 @@ function SinglePost(props) {
              
               <p>
                 {post.username}&nbsp;
+            
                 posted on &nbsp;
                 {post.createdAt}
               </p>

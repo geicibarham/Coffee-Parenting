@@ -6,6 +6,7 @@ import Footer from '../footer';
 import { useMutation } from '@apollo/client';
 import { ADD_USER } from '../../utils/mutations';
 import Auth from '../../utils/auth';
+import coffee from '../../assets/images/coffee.png'
 
 
 const Join = () => {
@@ -50,7 +51,11 @@ const Join = () => {
                         {/* <div className="card">
                         <h4 className="card-header">Sign Up</h4>
                         <div className="card-body"> */}
+                        
                         <form className="form-style" id="form" onSubmit={handleFormSubmit}>
+                        <h6 id="join">Join us for <img style={{height:"50px"}}src= {coffee} alt="coffee icon" /> </h6>  
+                       
+                           
                             <input
                                 className="form-input"
                                 placeholder="Your username"

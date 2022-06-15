@@ -7,8 +7,8 @@ import Join from '../join';
 function LandingPage() {
     return (
         <>
-        
-            <section id="dog-container">
+        <div id="landing-container">
+          
                 <div className="text-container">
                     <h4 id="working-app" className="text">Parenting is hard. 
                    
@@ -25,14 +25,21 @@ function LandingPage() {
                        </h5>
                      
                 </div>
-             
+              
+               
                 
-            </section>
+          
             
+            <div style={{width:"100%"}}>
+                < Join />
+                </div>
           
             <div>
-                < Footer />
             </div>
+            </div>
+                {/* < Footer /> */}
+        
+        
         </>
     )
 }

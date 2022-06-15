@@ -10,7 +10,7 @@ import { QUERY_POSTS } from "../../utils/queries";
 
 
 
-const PostList = ({ posts, title }) => {
+const PostList = ({ username,posts, title }) => {
   const [addvote, { error }] = useMutation(ADD_VOTE)
   const [addFlag] = useMutation(ADD_FLAG)
 
@@ -61,7 +61,8 @@ const PostList = ({ posts, title }) => {
         <h3>{title}</h3>
         {posts &&
           posts.map(post => (
-            < PostListCard post={post} handleVote={handleVote} handleFlag={handleFlag} />
+            < PostListCard username={posts.username} post={post} 
+            handleVote={handleVote} handleFlag={handleFlag} />
 
 
           ))}

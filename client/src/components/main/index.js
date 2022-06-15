@@ -30,7 +30,8 @@ function Main() {
             </h3>
 
             {/* <PostList posts={posts} /> */}
-            <PostList posts={posts} postId={posts._id} />
+            <PostList username={posts.username} 
+            posts={posts} postId={posts._id} />
           </>
         )}
       </div>

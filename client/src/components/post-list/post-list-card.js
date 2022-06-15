@@ -4,7 +4,7 @@ import heart from '../../assets/images/heart.png'
 import omg from '../../assets/images/omg.png'
 import Auth from '../../utils/auth'
 
-const PostCard = ({ post, handleFlag, handleVote }) => {
+const PostCard = ({ username,post, handleFlag, handleVote }) => {
     // let [voteCount, setVoteCount] = useState(post.voteCount)
     return (
         <div key={post._id} className="card mb-3">

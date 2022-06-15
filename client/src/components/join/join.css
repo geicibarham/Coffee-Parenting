@@ -8,7 +8,11 @@
   background-attachment: fixed;
 }
 
-
+#join{
+  text-shadow: none;
+  text-align: center;
+  padding-bottom: 10px;
+}
 .myForm {
     
     display: flex;

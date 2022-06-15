@@ -18,6 +18,8 @@ import Join from "./components/join";
 import NoMatch from "../../client/src/pages/NoMatch";
 import SinglePost from "./components/single-post";
 import Activities from "./components/activities";
+import Sixmonths from "./components/activities/6months";
+
 
 
 const httpLink = createHttpLink({
@@ -59,6 +61,7 @@ function App() {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/activities" element={<Activities />} />
+            <Route path="/sixmonths" element={<Sixmonths />} />
             <Route path="/join" element={<Join />} />
             <Route path="/login" element={<Login />} />
             <Route path="/main" element={<Main />} />

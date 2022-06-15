@@ -10,7 +10,7 @@ const typeDefs = gql`
         email: String
         bio: String
         friendCount: Int 
-        post: [Post]
+        posts: [Post]
         votes: [Vote]
         comments: [Comment]
         friends: [User]
