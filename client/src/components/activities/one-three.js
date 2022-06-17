@@ -33,7 +33,7 @@ function OneThree() {
 
 
                         <Link to="/sixmonths">0-6 Months</Link>  < br /> < br />
-                        <Link to="/main">3+ Years</Link>  < br /> < br />
+                        <Link to="/three">3+ Years</Link>  < br /> < br />
 
 
 
@@ -72,41 +72,7 @@ function OneThree() {
                     }}
                         src={kid} alt="baby leading walk" />
                 </div>
-                <h4 style={{
-                    textAlign: "center",
-                    paddingTop: "20px"
-                }}>Tips and Tricks</h4>
-                <div id="image">
 
-                    < img style={{
-                        width: "400px", borderRadius: "20px",
-                        marginRight: "20px"
-                    }}
-                        src={toddler} alt="toddler climbing  stairs" />
-
-                    <h4 style={{
-
-                        width: "50%", alignSelf: "center",
-                        color: "black",
-                        fontWeight: "lighter"
-                    }}>
-                        Some tips and tricks for handling meltdowns and tantrums
-                        are: < br /> < br />
-                        ✔️Consistent schedule: Offering a consistent schedule
-                        ensures their needs are being met, as far as eating,
-                        sleeping, playtime, etc. Children tend to thrive with predictability
-                        and set rules.< br /> < br />
-                        ✔️Outdoor time: Take them outside! The sun helps
-                        regulate their circadian rhythm and get that energy out! < br />
-                        < br />
-
-                        ✔️ Offer choices with limits. Offering choices within limits
-                        helps toddlers express opinions and have control over daily tasks.
-
-
-
-                    </h4>
-                </div>
 
 
                 <h4 style={{
@@ -115,6 +81,13 @@ function OneThree() {
                     paddingBottom: "20px"
                 }}>Rainbow Spaghetti</h4>
                 <div id="text-image">
+
+                    < img style={{
+                        width: "400px",
+                        borderRadius: "20px",
+                        marginRight: "20px"
+                    }}
+                        src={rainbow} alt="rainbow spaghetti" />
                     <h4 style={{
                         width: "50%",
                         alignSelf: "center",
@@ -127,12 +100,51 @@ function OneThree() {
                         using Sensory Activities, make sure the materials
                         are eatable. It is a lot likely they will try and explore with their mouths!
                     </h4>
-                    < img style={{
-                        width: "400px",
-                        borderRadius: "20px",
-                        marginLeft: "20px"
-                    }}
-                        src={rainbow} alt="rainbow spaghetti" />
+
+                </div>
+
+                <h4 style={{
+                        textAlign: "center",
+                        paddingTop: "20px"
+                    }}>Tips and Tricks</h4>
+                <div className='tips'>
+                   
+                
+
+
+                        <h4 style={{
+
+                            width: "50%", alignSelf: "center",
+                            color: "black",
+                            fontWeight: "lighter"
+                        }}>
+                            Some tips and tricks for handling meltdowns and tantrums
+                            are: < br /> < br />
+                            ✔️Consistent schedule: Offering a consistent schedule
+                            ensures their needs are being met, as far as eating,
+                            sleeping, playtime, etc. Children tend to thrive with predictability
+                            and set rules.< br /> < br />
+                            ✔️Outdoor time: Take them outside! The sun helps
+                            regulate their circadian rhythm and get that energy out! < br />
+                            < br />
+
+                            ✔️ Offer choices with limits. Offering choices within limits
+                            helps toddlers express opinions and have control over daily tasks.
+
+                            < br />
+                            < br />
+                      
+
+                        </h4>
+                        <div>
+                            < img style={{
+                                width: "400px", borderRadius: "20px",
+                                marginRight: "20px",
+                                float:"right"
+                            }}
+                                src={toddler} alt="toddler climbing  stairs" />
+                            </div>
+                    
                 </div>
             </section>
             < Footer />

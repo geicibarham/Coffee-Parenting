@@ -20,6 +20,7 @@ import SinglePost from "./components/single-post";
 import Activities from "./components/activities";
 import Sixmonths from "./components/activities/6months";
 import OneThree from "./components/activities/one-three";
+import Three from "./components/activities/3+";
 
 
 const httpLink = createHttpLink({
@@ -63,6 +64,7 @@ function App() {
             <Route path="/activities" element={<Activities />} />
             <Route path="/sixmonths" element={<Sixmonths />} />
             <Route path="/one-three" element={<OneThree />} />
+            <Route path="/three" element={<Three />} />
             <Route path="/join" element={<Join />} />
             <Route path="/login" element={<Login />} />
             <Route path="/main" element={<Main />} />
