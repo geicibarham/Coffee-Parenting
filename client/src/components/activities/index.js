@@ -16,7 +16,7 @@ function Activities() {
                 <ul id="activity-list">
 
                     <Link to="/sixmonths">0-6 Months</Link> < br /> < br />
-                    <Link to="/main">1-3 Years</Link>  < br /> < br />
+                    <Link to="/one-three">1-3 Years</Link>  < br /> < br />
                     <Link to="/main">3+ Years</Link>  < br /> < br />
 
                 </ul>
