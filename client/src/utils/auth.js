@@ -31,16 +31,22 @@ class AuthService {
     // Retrieves the user token from localStorage
     return localStorage.getItem('id_token');
   }
+  getUsername() {
+    // Retrieves the user token from localStorage
+    return localStorage.getItem('username');
+  }
 
-  login(idToken) {
+  login(userObj) {
     // Saves user token to localStorage
-    localStorage.setItem('id_token', idToken);
+    localStorage.setItem('id_token', userObj.token);
+    localStorage.setItem('username', userObj.user.username);
     window.location.assign('/user-page');
   }
 
   logout() {
     // Clear user token and profile data from localStorage
     localStorage.removeItem('id_token');
+    localStorage.removeItem('username');
     // this will reload the page and reset the state of the application
     window.location.assign('/');
   }

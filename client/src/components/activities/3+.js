@@ -2,10 +2,10 @@
 import css from './style.css'
 import Footer from '../footer'
 import { Link } from 'react-router-dom'
-import kid from '../../assets/images/child-walking.jpg'
+import draw from '../../assets/images/draw.jpg'
 import toddler from '../../assets/images/toddler.jpg'
-import rainbow from '../../assets/images/rainbow.jpg'
 import block from '../../assets/images/blocks.jpg'
+import outdoor from '../../assets/images/outdoor.jpg'
 
 function Three() {
     return (
@@ -75,7 +75,7 @@ function Three() {
                     textAlign: "center",
                     paddingTop: "20px",
                     paddingBottom: "20px"
-                }}>Rainbow Spaghetti</h4>
+                }}>Quiet Time</h4>
                 <div id="text-image">
 
                     < img style={{
@@ -83,18 +83,21 @@ function Three() {
                         borderRadius: "20px",
                         marginRight: "20px"
                     }}
-                        src={rainbow} alt="rainbow spaghetti" />
+                        src={draw} alt="kids drawing" />
                     <h4 style={{
                         width: "50%",
                         alignSelf: "center",
                         color: "black",
                         fontWeight: "lighter"
                     }}>
-                        Sensory activities are a great way to foster independent play,
-                        enhance fine motor skills and self-confidence.
-                        If You choose to create memories with your little one by
-                        using Sensory Activities, make sure the materials
-                        are eatable. It is a lot likely they will try and explore with their mouths!
+                        Quiet time is a period in the afternoon where children play independently, with low-key activities,
+                        it enhances self-confidence, and creativity and gives parents a chance to drink their coffee without
+                        being asked "but why" 100 times.  < br />
+                        If your child is transitioning from naps, (we have all been there), quiet time can be helpful to recuperate and 
+                        recharge a little bit. < br />
+                        We recommend starting with 15 minutes and increasing the time gradually. For low-key activities, you can 
+                        have sensory bins set up, coloring books, stickers, and blocks.
+
                     </h4>
 
                 </div>
@@ -114,18 +117,15 @@ function Three() {
                         color: "black",
                         fontWeight: "lighter"
                     }}>
-                        Some tips and tricks for handling meltdowns and tantrums
-                        are: < br /> < br />
-                        ✔️Consistent schedule: Offering a consistent schedule
-                        ensures their needs are being met, as far as eating,
-                        sleeping, playtime, etc. Children tend to thrive with predictability
-                        and set rules.< br /> < br />
-                        ✔️Outdoor time: Take them outside! The sun helps
-                        regulate their circadian rhythm and get that energy out! < br />
+                      
+                        ✔️Teach responsibility in small steps, starting with simple things like picking up their toys.< br /> < br />
+                        ✔️Outdoor time is still important as sunlight helps produde adequate levels of vitamin D
+                        which is essential for bone development and growth.
+                        < br />
                         < br />
 
-                        ✔️ Offer choices with limits. Offering choices within limits
-                        helps toddlers express opinions and have control over daily tasks.
+                        ✔️ Limit screen time, as that can lead to irregular sleep, impaired academic performance and behavioral problems.
+                        
 
                         < br />
                         < br />
@@ -135,10 +135,10 @@ function Three() {
                     <div>
                         < img style={{
                             width: "400px", borderRadius: "20px",
-                            marginRight: "20px",
+                            marginLeft: "20px",
                             float: "right"
                         }}
-                            src={toddler} alt="toddler climbing  stairs" />
+                            src={outdoor} alt="toddler climbing  stairs" />
                     </div>
 
                 </div>

@@ -10,13 +10,14 @@ const Comment = ({ comments }) => {
           <div class="card">
             <div class="card-body">
               <h4
-                style={{ color: "#774c2a", textAlign: "center" }}
+                style={{ color: "black", textAlign: "center",}}
                 class="card-title"
               >
                 Recent Comments
               </h4>
               <h6
-                style={{ color: "#774c2a", textAlign: "center" }}
+                style={{ color: "black", textAlign: "center",
+               }}
                 class="card-subtitle"
               >
                 Latest Comments by users
