@@ -1,4 +1,4 @@
-# <p align="center">**Coffee & PArenting**![App Image](./client/src/assets/images/small-dog.png) </p>
+# <p align="center">**Coffee & PArenting**![App Image](./client/src/assets/images/favicon.png) </p>
 ## <p align="center">**A social networking app where users can upload and rate code files to help others improve projects and build up their coding confidence.**</p><br>
 ### <p align="center">Created by Geiciane Barham ©2022<p>
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
