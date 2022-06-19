@@ -1,4 +1,4 @@
-# <p align="center">**Coffee & Parenting**![App Image](./client/src/assets/images/favicon.png) </p>
+# <p align="center">**Coffee & Parenting**![App Image](./client/src/assets/images/coffee.png) </p>
 
 ## <p align="center">**A social network app where parents can connect with each other to ask for advice,share their concerns or talk about their children!
   
