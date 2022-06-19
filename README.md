@@ -3,7 +3,7 @@
 ## <p align="center">**A social network app where parents can connect with each other to ask for advice,share their concerns or talk about their children!
   
  Coffee&Parenting's goal is to be a network of support and connection, making parenting just a little easier.
-  **</p><br>
+  </p><br>
 
 ## Licensing
 
