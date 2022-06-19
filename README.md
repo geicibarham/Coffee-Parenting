@@ -1,6 +1,6 @@
-# <p align="center">**CODESPECT**![App Image](./client/src/assets/images/small-dog.png) </p>
+# <p align="center">**Coffee & PArenting**![App Image](./client/src/assets/images/small-dog.png) </p>
 ## <p align="center">**A social networking app where users can upload and rate code files to help others improve projects and build up their coding confidence.**</p><br>
-### <p align="center">Created by Weekend at MERNie's ©2022<p>
+### <p align="center">Created by Geiciane Barham ©2022<p>
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ## Licensing
 
@@ -15,37 +15,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-## <p align="center">**CONTRIBUTERS**</p>
-***
-- ## **Abi Ponce**<br>
-    Back end routing and debugging<br>
-    **[Email](abiponce.ap@gmail.com)**<br>
-    **[GitHub](http://www.github.com/apjuve)**<br>
 
-- ## **Adam Pritts:**<br>
-    Back end routing and debugging<br>
-    **[Email](agpritts@gmail.com)** <br>
-    **[GitHub](http://www.github.com/agpritts)**<br>
-
-- ## **Blair Seivers:**<br>
-    Front end UI and routing<br>
-    **[Email](blair.seivers@gmail.com)**<br>
-    **[GitHub](http://www.github.com/dogmom3)**<br>
-
-- ## **Geiciane Barham**<br>
-    Front end UI,routing,queries,mutations, back end models,endpoints,Front and back end debugging<br>
-    **[Email](Geicianecosta43@gmail.com)**<br>
-    **[GitHub](https://github.com/geicibarham)**<br>
-
-- ## **Jordan Hessler**<br>
-    Front and back end endpoints, routing, debugging and models<br>
-    **[Email](jhessler11@gmail.com)**<br>
-    **[GitHub](http://www.github.com/jhessler11)**<br>
-
-- ## **Mark Healy**<br>
-    Heroku deployment and Scrum master<br>
-    **[Email](gmarkghealy@gmail.com)**<br>
-    **[GitHub](http://www.github.com/utilrr)**<br>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -61,8 +31,7 @@
 * Taking all of those errors as learning opportunities.
 * Helping each other solve problems.
 * Using refetch query.
-* Having one person handle the deployment.
-* Learning new programs and skills.
+.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
