@@ -32,21 +32,19 @@
 ***
 ### Challenges:
 * Consistancy in the names of endpoints for the front and back end.
-* Learning more about working with back end functionality for those of us that weren't as comfortable in that area.
 * React state managenment.
 * Using GraphQL for the first time.
-* Fixing _**tons**_ of errors!
+
 ### Successes:
-* Taking all of those errors as learning opportunities.
-* Helping each other solve problems.
-* Using refetch query.
-.
+* Taking all errors as learning opportunities.
+* Using refetch query to help manage react state.
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## <p align="center">**DEPLOYMENT**</p>
 ***
-### <p align="center">You can find our app deployed **[here on Heroku](secure-inlet-72014.herokuapp.com/)**</p>
+### <p align="center">You can find our app deployed **[here on Heroku](https://powerful-sands-61970.herokuapp.com/)**</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
