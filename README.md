@@ -48,7 +48,7 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## <p align="center">**USAGE**</p>
+<!-- ## <p align="center">**USAGE**</p>
 ***
 ### <p align="center">_When you open up the app, you will arrive at this home page that gives you a brief explanation of what it is all about. You are instructed to sign up for an account to connect with other developers. As you can see in the nav bar, you can still see the 'Checkout Code' page, but without an account, you will not be able to interact with any features._</p>
 ![App Image](./client/src/assets/images/home-page.png)
@@ -64,7 +64,7 @@
 
 ### <p align="center">_Lastly, we have the user page, where you can create new posts and view all of your own existing posts._</p>
 ![App Image](./client/src/assets/images/user-page.png)
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) -->
 
 ### <p align="center">Created by Geiciane Barham ©2022<p>
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
