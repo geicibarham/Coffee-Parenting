@@ -19,13 +19,14 @@
 
 
 ### Technologies:
-* React;
-* GraphQl;
-* Apollo Server;
-* Apollo Client;
-* Node.js;
+* React
+* GraphQl
+* Apollo Server
+* Apollo Client
+* Node.js
 * MongoDB
 * JSON Web Tokens
+* React Bootstrap
 
 ## <p align="center">**CHALLENGES & SUCCESSES**</p>
 ***
