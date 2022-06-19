@@ -10,7 +10,7 @@
 [![license](https://img.shields.io/badge/license-MIT-success)](https://opensource.org/licenses/MIT)
 ## <p align="center">**TABLE OF CONTENTS**</p>
 ***
-1. **[Contributers](#contributers)**
+1. **[Technologies](#technologies)**
 2. **[Challenges & Successes](#challengessuccesses)**
 3. **[Deployment](#deployment)**
 4. **[Usage](#usage)** 
@@ -18,9 +18,14 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+### Technologies:
+* React;
+* GraphQl;
+* Apollo Server;
+* Apollo Client;
+* Node.js;
+* MongoDB
+* JSON Web Tokens
 
 ## <p align="center">**CHALLENGES & SUCCESSES**</p>
 ***
