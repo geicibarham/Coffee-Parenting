@@ -4,8 +4,7 @@
   
  Coffee&Parenting's goal is to be a network of support and connection, making parenting just a little easier.
   **</p><br>
-### <p align="center">Created by Geiciane Barham ©2022<p>
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## Licensing
 
 [![license](https://img.shields.io/badge/license-MIT-success)](https://opensource.org/licenses/MIT)
@@ -61,4 +60,7 @@
 
 ### <p align="center">_Lastly, we have the user page, where you can create new posts and view all of your own existing posts._</p>
 ![App Image](./client/src/assets/images/user-page.png)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+### <p align="center">Created by Geiciane Barham ©2022<p>
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
