@@ -7,8 +7,9 @@ const db = require("./config/connection");
 const auth = require("./utils/auth");
 const { authMiddleware } = require('./utils/auth');
 
-const app = express();
+
 const PORT = process.env.PORT || 3001;
+const app = express();
 
 const server = new ApolloServer({
   typeDefs,
@@ -19,13 +20,14 @@ const server = new ApolloServer({
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+app.use('/images', express.static(path.join(__dirname, '../client/images')));
 //INSERT _DIRNAME FILE PATH BELOW
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "")));
+  app.use(express.static(path.join(__dirname, '../client/build')));
 }
 //INSERT _DIRNAME FILE PATH BELOW
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, ""));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname,  '../client/build/index.html'));
 });
 
 //LOG MONGO QUERIES BEING EXECUTED
