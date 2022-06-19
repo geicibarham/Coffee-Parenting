@@ -67,3 +67,15 @@ h1 {
  font-weight: lighter;
  font-size: smaller;
 }
+
+#avatar{
+background-color: pink;
+border-radius: 50px;
+margin-right: 20px;
+  padding: 20px;
+  height: fit-content;
+}
+
+span{
+  border-radius: 50px !important;
+}

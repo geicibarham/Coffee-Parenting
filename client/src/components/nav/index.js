@@ -4,7 +4,7 @@ import css from "./nav.css";
 import Auth from "../../utils/auth";
 import { NavLink } from "react-router-dom";
 import Dropdown from 'react-bootstrap/Dropdown';
-
+import coffee from '../../assets/images/coffee-grains.png'
 
 function Nav() {
   <style>
@@ -19,9 +19,11 @@ function Nav() {
 
     <nav id="main-nav">
       <h3 id="title">
+      <img src = {coffee} alt="coffee grains" />
         <NavLink id="coffee" className="titleBtnLink" to="/">
           Coffee & Parenting
         </NavLink>
+      
       </h3>
 
       <ul id="nav-list">

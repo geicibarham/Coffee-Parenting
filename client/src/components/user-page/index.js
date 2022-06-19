@@ -6,9 +6,10 @@ import { ADD_POST } from '../../utils/mutations';
 import { QUERY_POSTS } from "../../utils/queries";
 import Auth from '../../utils/auth'
 import PostList from '../post-list'
-import AddPost from "../add-post";
+import Avatar from 'react-avatar';
 import { useParams } from 'react-router-dom';
 import { QUERY_USER } from '../../utils/queries';
+import auth from "../../utils/auth";
 
 
 function UserPage() {
@@ -56,12 +57,18 @@ function UserPage() {
    
     <>
  
- 
+ {Auth.loggedIn() &&<h4 style={{textAlign:"center",paddingTop:"20px"}}>
+  Welcome {Auth.getUsername()}!</h4> }
       <div className='user-post-page'>
  
-  
+ 
+ {/* <div className="avatar">
+      <Avatar 
+      color={Avatar.getRandomColor('sitebase', ['red', 'green','pink', 'blue'],)} style={{borderRadius:"50px"}} 
+     name={Auth.getUsername()}/>
+  </div> */}
 
-      {/* {Auth.loggedIn() &&<h4>Welcome {userData.user.username}!</h4> } */}
+     
         
         <div>
         {!Auth.loggedIn() && <p style={{ color: "#774c2a", fontWeight: "light" }}>You need to be logged in, friend!</p>}
@@ -106,6 +113,7 @@ function UserPage() {
           {/* display list post- need to use .map method (postList) */}
 
         </div>
+        <h6 id="avatar">{Auth.getUsername().charAt(0).toUpperCase()}</h6>
       </div>
 
 
