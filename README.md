@@ -1,5 +1,9 @@
-# <p align="center">**Coffee & PArenting**![App Image](./client/src/assets/images/favicon.png) </p>
-## <p align="center">**A social networking app where users can upload and rate code files to help others improve projects and build up their coding confidence.**</p><br>
+# <p align="center">**Coffee & Parenting**![App Image](./client/src/assets/images/favicon.png) </p>
+
+## <p align="center">**A social network app where parents can connect with each other to ask for advice,share their concerns or talk about their children!
+  
+ Coffee&Parenting's goal is to be a network of support and connection, making parenting just a little easier.
+  **</p><br>
 ### <p align="center">Created by Geiciane Barham ©2022<p>
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ## Licensing
