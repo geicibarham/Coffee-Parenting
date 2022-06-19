@@ -3,7 +3,7 @@ import css from "./style.css";
 import { useQuery } from "@apollo/client";
 import { QUERY_POSTS } from "../../utils/queries";
 import PostList from "../post-list";
-import glass from "../../assets/images/favicon.png";
+// import glass from "../../assets/images/favicon.png";
 
 function Main() {
   const { loading, data } = useQuery(QUERY_POSTS);
@@ -26,7 +26,7 @@ function Main() {
                 color: "white",
               }}
             >
-              What other parents are saying... <img id="glass" src={glass} />
+              What other parents are saying...
             </h3>
 
             {/* <PostList posts={posts} /> */}
