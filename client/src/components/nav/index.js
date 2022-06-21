@@ -19,7 +19,7 @@ function Nav() {
 
     <nav id="main-nav">
       <h3 id="title">
-      <img src = {coffee} alt="coffee grains" />
+      <img id="grains" src = {coffee} alt="coffee grains" />
         <NavLink id="coffee" className="titleBtnLink" to="/">
           Coffee & Parenting
         </NavLink>
@@ -28,7 +28,8 @@ function Nav() {
 
       <ul id="nav-list">
       <Dropdown title="Dropdown button">
-        <Dropdown.Toggle style={{color:"white"}} variant="" id="dropdown-basic">
+        <Dropdown.Toggle style={{color:"white"}}
+        variant="" id="dropdown-basic">
           Menu
         </Dropdown.Toggle>
 
@@ -60,7 +61,7 @@ function Nav() {
           <>
 
 
-            <li className="navBtn">
+            <li id="logout" className="navBtn">
               <a className="navBtnLink" href="/" onClick={logout}>
                 Logout
               </a>

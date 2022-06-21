@@ -55,18 +55,31 @@
       font-size: 14px;
     }
 
-    #dog-container {
+    #landing-container {
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
+      
+      
     }
 
-    #dog img {
-      width: 0px;
-      height: 0px;
-    }
+    
 
   }
+
+  @media (max-width: 775px) {
+    #landing-container.custom-background {
+    background-size: contain;
+    background-position: center;
+    }
+    }
+
+    @media (max-width: 991px) {
+      .palette-primary .call-to-action {
+      padding: 0;
+      margin: 0;
+      }
+      }
 
   @media screen and (max-width: 575px) {
 

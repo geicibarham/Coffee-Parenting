@@ -38,7 +38,7 @@
   .form-style {
      
 
-    width: 40%;
+    width: 60%;
     border: 3px solid var(--secondary-color);
     background-color: rgba(255, 255, 255, 0.4);
     padding: 20px;
@@ -46,7 +46,7 @@
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     color: black;
-    border: solid 1px #774c2a;
+    border: solid 1px #1b2a4c;
   
   }
 
@@ -65,10 +65,6 @@
   .form-input:focus {
     background-color: rgba(255, 255, 255, 1);
     outline: none;
-  }
-
-  #dog{
-      align-self:flex-end;
   }
 
   #warn {
@@ -90,5 +86,25 @@
 #btn-submit:hover {
     background-color:#1b2a4c;
     color:white;
+  }
+
+  @media screen and (max-width: 775px) {
+
+
+    .form-style{
+      width: auto;
+      align-self: center;
+     margin: auto;
+   
+    }
+
+    .join-form{
+      background-size: cover;
+     
+   
+    }
+
+    
+
   }
  
