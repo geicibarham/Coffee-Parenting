@@ -8,7 +8,7 @@
 
 .card-body {
     z-index: 1;
-    background-color: rgb(244 228 194 / 49%) !important;
+    background-color: #f8f9fa !important;
     border: solid 1px white;
 }
 
