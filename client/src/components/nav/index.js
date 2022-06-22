@@ -5,6 +5,7 @@ import Auth from "../../utils/auth";
 import { NavLink } from "react-router-dom";
 import Dropdown from 'react-bootstrap/Dropdown';
 import coffee from '../../assets/images/coffee-grains.png'
+import randomColor from "randomcolor";
 
 function Nav() {
   <style>
@@ -19,42 +20,43 @@ function Nav() {
 
     <nav id="main-nav">
       <h3 id="title">
-      <img id="grains" src = {coffee} alt="coffee grains" />
+        <img id="grains" src={coffee} alt="coffee grains" />
         <NavLink id="coffee" className="titleBtnLink" to="/">
           Coffee & Parenting
         </NavLink>
-      
+
       </h3>
 
       <ul id="nav-list">
-      <Dropdown title="Dropdown button">
-        <Dropdown.Toggle style={{color:"white"}}
-        variant="" id="dropdown-basic">
-          Menu
-        </Dropdown.Toggle>
+        <Dropdown title="Dropdown button">
+          <Dropdown.Toggle style={{ color: "white" }}
+            variant="" id="dropdown-basic">
+            Menu
+          </Dropdown.Toggle>
 
-        <Dropdown.Menu>
-        <Dropdown.Item href="/main">Feed</Dropdown.Item>
+          <Dropdown.Menu>
+            <Dropdown.Item href="/main">Feed</Dropdown.Item>
 
-          {Auth.loggedIn() && (
-            <>
-              <Dropdown.Item href="/user-page">My Posts</Dropdown.Item>
-         
-              <Dropdown.Item href="/activities">Activities</Dropdown.Item>
+            {Auth.loggedIn() && (
+
+              <>
+                <Dropdown.Item href="/user-page">My Posts</Dropdown.Item>
+
+                <Dropdown.Item href="/activities">Activities</Dropdown.Item>
               </>
-          )}
+            )}
 
 
-          {!Auth.loggedIn() && (
-            <>
-              <Dropdown.Item href="/join">Join</Dropdown.Item>
-              <Dropdown.Item href="/login">Login</Dropdown.Item>
-            </>
-          )}
+            {!Auth.loggedIn() && (
+              <>
+                <Dropdown.Item href="/join">Join</Dropdown.Item>
+                <Dropdown.Item href="/login">Login</Dropdown.Item>
+              </>
+            )}
 
-        </Dropdown.Menu>
-      </Dropdown>
-   
+          </Dropdown.Menu>
+        </Dropdown>
+
 
 
         {Auth.loggedIn() ? (
@@ -65,8 +67,24 @@ function Nav() {
               <a className="navBtnLink" href="/" onClick={logout}>
                 Logout
               </a>
+              
             </li>
+            <Link to ="/user-page"  >
+            < div id="avatar"style={{backgroundColor:randomColor()}}>
+            
+              <p 
+                id="">{Auth.getUsername().charAt(0).toUpperCase()}</p>
+                 
+            </div>
+            </Link>
+
+
+          
+        
+           
           </>
+
+
         ) : (
           <>
 

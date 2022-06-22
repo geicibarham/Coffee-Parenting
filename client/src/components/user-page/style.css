@@ -1,6 +1,6 @@
 h1 {
   font-size: 30px;
-  color:#1b2a4c;
+  color: #1b2a4c;
   text-align: center;
   font-weight: bold;
 }
@@ -17,9 +17,10 @@ h1 {
   /* justify-content: left;
   align-items: center; */
 }
+
 .post-form {
- margin-left: 10px;
- width: 70vh;
+  margin-left: 10px;
+  width: 70vh;
   border: 3px solid var(--secondary-color);
   background-color: rgba(255, 255, 255, 0.4);
   padding: 20px;
@@ -29,6 +30,7 @@ h1 {
   color: black;
   border: solid 1px #774c2a;
 }
+
 .form-input {
   background-color: white;
   border: 1px solid #1b2a4c;
@@ -40,42 +42,58 @@ h1 {
   margin-bottom: 15px;
   color: black;
 }
+
 .form-input:focus {
   background-color: rgba(255, 255, 255, 1);
   outline: none;
 }
+
 .btn {
   float: right;
   margin: auto;
   padding: 10px;
 }
-.btn:hover{
-    background-color: #1b2a4c;
-    color:white;
+
+.btn:hover {
+  background-color: #1b2a4c;
+  color: white;
 }
-.merge{
+
+.merge {
   display: flex;
   flex-direction: row;
 }
 
-#post{
+#post {
   width: 80%;
 }
 
 ::placeholder {
   color: #1b2a4c;
- font-weight: lighter;
- font-size: smaller;
+  font-weight: lighter;
+  font-size: smaller;
 }
 
-#avatar{
-background-color: pink;
-border-radius: 50px;
-margin-right: 20px;
+#avatar {
+
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+
+  border-radius: 100px;
+  margin-right: 20px;
   padding: 20px;
-  height: fit-content;
+
+  padding-bottom: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  align-self: center;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
-span{
-  border-radius: 50px !important;
+#avatar p {
+  align-self: center;
+
 }

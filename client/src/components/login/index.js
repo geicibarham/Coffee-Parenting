@@ -44,7 +44,7 @@ const Login = () => {
     <>
       <main className="">
         <div className="login">
-          <form className="form-style" id="login"
+          <form id="login"className="form-login" 
             onSubmit={handleFormSubmit}>
             <h5 style={{
               color: "black",

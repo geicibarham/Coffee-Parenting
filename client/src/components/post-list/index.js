@@ -59,9 +59,12 @@ const PostList = ({ username,posts, title }) => {
     <section id="posts">
       <div>
         <h3>{title}</h3>
+        
         {posts &&
           posts.map(post => (
+           
             < PostListCard username={posts.username} post={post} 
+           
             handleVote={handleVote} handleFlag={handleFlag} />
 
 

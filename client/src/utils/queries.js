@@ -55,6 +55,10 @@ query user($username: String!) {
     _id
     username
     email
+    friends{
+      _id
+      username
+    }
     friendCount
     posts {
       _id
