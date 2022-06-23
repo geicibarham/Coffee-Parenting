@@ -6,6 +6,7 @@ import css from './name.css'
 import baby from '../../assets/images/baby.png'
 import girl from '../../assets/images/girl.png'
 import boy from '../../assets/images/boy.png'
+import heart from '../../assets/images/heart-save.png'
 
 import neutral from '../../assets/images/neutral.png'
 function Names() {
@@ -51,7 +52,7 @@ function Names() {
           <button id="girl"
             onClick={getRandom} className="btn btn-info 
             button-style">Girls
-            <img style={{ height: "30px" }} src={girl} />
+            <img alt="girl-icon" style={{ height: "30px" }} src={girl} />
           </button>
 
           <button id="boy" onClick={getRandomboys}
@@ -70,7 +71,11 @@ function Names() {
 
         <div className='outer-container'>
           <div className='name-container'>
-            <h1>{randomElement.name}</h1> <br />
+            
+            <h1>{randomElement.name}
+            {/* <img style={{height:"30px"}}
+            src={heart} /> */}
+            </h1> <br />
 
           </div>
           <div className='meaning-container'>
