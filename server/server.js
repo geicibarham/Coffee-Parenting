@@ -6,15 +6,12 @@ const { typeDefs, resolvers } = require("./schemas");
 const db = require("./config/connection");
 const auth = require("./utils/auth");
 const { authMiddleware } = require('./utils/auth');
-const { animals } = require('./test.json');
+
 
 const PORT = process.env.PORT || 3001;
 const app = express();
 
-app.get('/api/animals', (req, res) => {
-  res.json(animals);
-  console.log(animals)
-});
+
 const server = new ApolloServer({
   typeDefs,
   resolvers,
