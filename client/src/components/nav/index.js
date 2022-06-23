@@ -67,21 +67,20 @@ function Nav() {
               <a className="navBtnLink" href="/" onClick={logout}>
                 Logout
               </a>
-              
+
             </li>
-            <Link to ="/user-page"  >
-            < div id="avatar"style={{backgroundColor:randomColor()}}>
-            
-              <p 
-                id="">{Auth.getUsername().charAt(0).toUpperCase()}</p>
-                 
-            </div>
-            </Link>
 
 
-          
-        
+
+
+
+        <Link id="link-user"to="/user-page">
+              <p  style={{ backgroundColor: randomColor() }} class="dot">{Auth.getUsername().
+                charAt(0).toUpperCase().trim()}</p>
            
+           </Link>
+
+
           </>
 
 
