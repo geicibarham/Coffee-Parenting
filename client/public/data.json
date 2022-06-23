@@ -1,7 +1,8 @@
 [
     {
     "id": "0",
-    "name": "Emma"
+    "name": "Emma",
+    "meaning":"test"
     },
     {
     "id": "1",

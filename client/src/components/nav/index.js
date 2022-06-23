@@ -41,7 +41,7 @@ function Nav() {
 
               <>
                 <Dropdown.Item href="/user-page">My Posts</Dropdown.Item>
-
+                <Dropdown.Item href="/names">Baby Names</Dropdown.Item>
                 <Dropdown.Item href="/activities">Activities</Dropdown.Item>
               </>
             )}

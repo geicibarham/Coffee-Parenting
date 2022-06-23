@@ -1,43 +1,53 @@
 [
     {
     "id": "0",
-    "name": "Emma"
+    "name": "Emma",
+    "meaning":"Emma is an English name with roots in an old Germanic word meaning “whole” or “universal.” A perfect fit for the baby who will be your whole world!"
     },
     {
     "id": "1",
-    "name": "Mia"
+    "name": "Mia",
+    "meaning":"test"
     },
     {
     "id": "2",
-    "name": "Charlotte"
+    "name": "Charlotte",
+    "meaning":"test"
     },
     {
     "id": "3",
-    "name": "Elizabeth"
+    "name": "Elizabeth",
+    "meaning":"test"
     },
     {
     "id": "4",
-    "name": "Abigail"
+    "name": "Abigail",
+    "meaning":"test"
     },
     {
     "id": "5",
-    "name": "Marcy"
+    "name": "Marcy",
+    "meaning":"TEST"
     },
     {
     "id": "6",
-    "name": "Alessia"
+    "name": "Alessia",
+    "meaning":"test"
     },
     {
     "id": "7",
-    "name": "Thalita"
+    "name": "Thalita",
+    "meaning":"test"
     },
     {
     "id": "8",
-    "name": "Madison"
+    "name": "Madison",
+    "meaning":"test"
     },
     {
     "id": "9",
-    "name": "Tamara"
+    "name": "Tamara",
+    "meaning":"test"
     }
     ]
 
