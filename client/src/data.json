@@ -7,48 +7,53 @@
     {
     "id": "1",
     "name": "Mia",
-    "meaning":"test"
+    "meaning":"Mia means 'Ocean Goddess' or 'Queen'; it can also mean 'guardian of justice'. It is derived from many names, most commonly from the name Maria, but is also derived from names like Amelia (and its various spellings), and Maya"
     },
     {
     "id": "2",
     "name": "Charlotte",
-    "meaning":"test"
+    "meaning":"The name Charlotte is girl's name of French origin meaning 'free man'.Charlotte is the feminine form of the male given name Charles. It derived from Charlot, a French diminutive of Charles meaning 'little Charles', and the name of Charlemagne’s son in French literature and legend."
     },
     {
     "id": "3",
     "name": "Elizabeth",
-    "meaning":"test"
+    "meaning":"The name Elizabeth has religious roots and origins in Hebrew. Elizabeth can have several meanings including 'My God is an oath', 'My God is abundance', and 'edged to God'."
     },
     {
     "id": "4",
     "name": "Abigail",
-    "meaning":"test"
+    "meaning":"Abigail means 'cause of joy' or 'father's joy' in Hebrew. In the Bible, Abigail is described as a beautiful and intelligent woman."
     },
     {
     "id": "5",
     "name": "Marcy",
-    "meaning":"TEST"
+    "meaning":"The name Marcy is girl's name of Latin origin meaning 'Mars, god of war.'"
     },
     {
     "id": "6",
     "name": "Alessia",
-    "meaning":"test"
+    "meaning":"Alessia is an Italian given name, the feminine form of the male given name Alessio, the Italian form of Alexius. It is a popular name for females in Italy and was the second most popular name for Italian girls born in 2006"
     },
     {
     "id": "7",
     "name": "Thalita",
-    "meaning":"test"
+    "meaning":"The name Talitha is girl's name of Arabic, Aramaic origin meaning 'little girl'."
     },
     {
     "id": "8",
-    "name": "Madison",
-    "meaning":"test"
+    "name": "Aurora",
+    "meaning":"Aurora is a mystical and romantic name that means 'dawn' in Latin. An aurora also refers to a natural light display in the Earth's sky called the aurora polaris, or polar lights, visible only in high-latitude regions like the North and South Poles."
     },
     {
     "id": "9",
     "name": "Tamara",
-    "meaning":"test"
-    }
+    "meaning":"The name Tamara is primarily a female name of Russian origin that means Palm Tree."
+    },
+    {
+        "id": "10",
+        "name": "Brisa",
+        "meaning":"(Spanish origin) meaning “breeze”."
+        }
     ]
 
 
