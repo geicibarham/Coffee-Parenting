@@ -2,7 +2,7 @@
     {
         "id": "0",
         "name": "Sloan",
-        "meaning": "Meaning:raider; warrior. Sloan is a gender-neutral baby name of Irish origin. Anglicized form of the Irish surname Ó Sluaghadháin, Sloan directly translates to “raider” or “warrior.” A variant of the names Sloane and Slowan, Sloan is often associated with tall tales and brave leaders.”"
+        "meaning": "raider; warrior. Sloan is a gender-neutral baby name of Irish origin. Anglicized form of the Irish surname Ó Sluaghadháin, Sloan directly translates to “raider” or “warrior.” A variant of the names Sloane and Slowan, Sloan is often associated with tall tales and brave leaders.”"
     },
     {
         "id": "1",
@@ -63,5 +63,56 @@
         "id": "12",
         "name": "Ezra",
         "meaning": " Ezra comes from the Hebrew word azar meaning “help,” “aid,” or “protect.” The original long form of the name may have been Azaryahu, meaning “God helps” or “God protects.”"
+    },
+    {
+        "id": "13",
+        "name": "Logan",
+        "meaning": "Logan is a Scottish name that comes from the Gaelic word “lagan” or “lag,” which means “hollow” (although the name itself means “little hollow”). It was originally a surname in Scotland but eventually began to be used as a first name as well."
+    },
+    
+    {
+        "id": "14",
+        "name": "Riley",
+        "meaning": "The name Riley is of Irish and Gaelic origin meaning “valiant” and “rye meadow” "
+    },
+    {
+        "id": "15",
+        "name": "Skylar/Skyler",
+        "meaning": "Skylar is a gender-neutral name of Dutch origin. A variant of the surname Schuyler, it means 'scholar' and was introduced to the United States in the 17th century by Dutch settlers. While Skylar is commonly used for girls, the alternative spelling Skyler is more popular for boys."
+    },
+    {
+        "id": "16",
+        "name": "Brett",
+        "meaning": "Brett derives from a Middle English surname meaning 'Briton' or 'Breton', referring to the Celtic people of Britain and Brittany, France."
+    },
+    {
+        "id": "17",
+        "name": "Sage",
+        "meaning": "Sage is a family name and a unisex given name. It can also be spelled Saige, Sange or Sayge. Its meaning is 'herb' or 'prophet'."
+    },
+    {
+        "id": "18",
+        "name": "Sawyer",
+        "meaning": "Sawyer is a gender-neutral occupational name of English origins, meaning “woodcutter.” The name originally found fame in Mark Twain's Adventures of Tom Sawyer, as an ever-mischievous and adventurous little boy. "
+    },
+    {
+        "id": "19",
+        "name": "Rowan",
+        "meaning": "What Does Rowan Mean? Rowan is a historically masculine name of Irish and English origins. In Ireland, it's derived from the Irish name Ruadhán, which means “red-haired.” Its English origins also can be traced to the Irish given name."
+    },
+    {
+        "id": "20",
+        "name": "Morgan",
+        "meaning": "The name Morgan means 'sea-born', 'sea-song',  or 'sea-circle.' It is traditionally a boy's name of Welsh origin, and more specifically, a variant of the Old Welsh name Morcant which is a combination of the Welsh elements mor, meaning 'sea' and cant, meaning 'circle.'"
+    },
+    {
+        "id": "21",
+        "name": "Quinn",
+        "meaning": "Irish, Celtic, Gaelic, Latin. Gender: Quinn is considered a gender-neutral name, traditionally meaning 'head' and 'wise'."
+    },
+    {
+        "id": "22",
+        "name": "Finley",
+        "meaning": "With Irish origins, Finley is a gender-neutral name meaning “fair-haired courageous one.” With such an amazing definition it's no wonder that both boys and girls are called Finley! Traditionally, Finley was considered a boys name."
     }
 ]

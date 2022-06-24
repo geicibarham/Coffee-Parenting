@@ -63,5 +63,58 @@
         "id": "12",
         "name": "Bruno",
         "meaning": "Bruno is a male given name. It is derived from the Old High German name Brun meaning Brown (modern Standard German: braun). Bruno."
+    },
+    {
+        "id": "13",
+        "name": "Hector",
+        "meaning": "Hector is an English, French, Scottish, and Spanish given name. The name is derived from the name of Hektor, a legendary Trojan champion who was killed by the Greek Achilles. The name Hektor is probably derived from the Greek ékhein, meaning 'to have', 'to hold', 'to check', 'restrain'."
+    },
+    {
+        "id": "14",
+        "name": "Absolom",
+        "meaning": "The name Absolom is primarily a male name of Hebrew origin that means Father Is Peace. In the Bible, Absalom was the son of Maacah, David's son."
+    }, 
+    {
+        "id": "15",
+        "name": "Aaron",
+        "meaning": "Aaron is a Hebrew name typically given to boys. It means “exalted” or “strong.” It has also been interpreted to mean “teacher” or “mountain of strength.” While it's spelled Aharon in Hebrew, the “h” is dropped in the Greek variation. Aaron is the version that has been adapted in English."
+    },
+    {
+        "id": "16",
+        "name": "Carter",
+        "meaning": "Before it was a popular name for baby boys, Carter was an Irish surname back when people's last names often referred to what they did for a living. If you were a Carter, it meant you transported goods with a cart or wagon  and in Irish tradition, it was often McCarter, meaning 'son of Carter.' But there's more to the name than just being a cart-pusher.If you're looking for a more romantic meaning, the word 'carter' is related to the Gaelic word 'cairtear' which loosely translates to 'tourist' or 'sojourner' in English." 
+    },
+    {
+        "id": "17",
+        "name": "Fenrir",
+        "meaning": "The name Fenrir is boy's name meaning 'fen-dweller'. The name of a monstrous wolf in Norse legend, who kills the god Odin and is then killed himself by one of Odin's sons. Harry Potter author J.K. Rowling used the name for one of her most terrifying characters: the evil werewolf Fenrir Greyback." 
+    },
+    {
+        "id": "18",
+        "name": "Robert",
+        "meaning": "Robert is an old German name that means “bright fame.” It’s taken from the old German name Hrodebert. The name is made up of two elements: “Hrod” which means fame and “Beraht” which means bright. The name was introduced to the people of England by the Normans in the middle ages." 
+    },
+   
+    {
+        "id": "19",
+        "name": "Geoffrey",
+        "meaning": "A male given name: from Germanic, meaning “divine peace.”" 
+    },
+    {
+        "id": "20",
+        "name": "Derrick",
+        "meaning": "In English Baby Names the meaning of the name Derrick is: Gifted ruler. People ruler." 
+    },
+    {
+        "id": "21",
+        "name": "Brock",
+        "meaning": " Brock as a boy's name is pronounced brahk. It is of Middle English, Old English and Celtic origin, and the meaning of Brock is 'badger-like'." 
+    },
+    {
+        "id": "22",
+        "name": "Brennan",
+        "meaning": "The Irish surname Brennan, which in one form appears in Irish as Ó Braonáin, meaning 'descendant of Braonán'. The Gaelic personal name Braonán is derived from the Irish braon, meaning 'sorrow'. In some cases the given name Brennan may be a contracted form of the given name Brendan." 
     }
+    
+
 ]
