@@ -12,7 +12,7 @@ import { QUERY_USER } from '../../utils/queries';
 import FriendList from '../friend-list';
 
 
-function UserPage() {
+function UserPage(posts) {
   const [title, setTitle] = useState('');
   const [justify, setJustify] = useState('');
 
@@ -56,8 +56,10 @@ function UserPage() {
 
     <>
 
-      {Auth.loggedIn() && <h4 style={{ textTransform:"capitalize",
-      textAlign: "center", paddingTop: "20px" }}>
+      {Auth.loggedIn() && <h4 style={{
+        textTransform: "capitalize",
+        textAlign: "center", paddingTop: "20px"
+      }}>
         Welcome {Auth.getUsername()}!</h4>}
       <div className='user-post-page'>
 
@@ -92,7 +94,10 @@ function UserPage() {
           </form>
         </div>
 
+
         <div id="post">
+          
+
           {loadingPosts ? (
             <div>Loading...</div>
           ) : (
@@ -104,16 +109,16 @@ function UserPage() {
           {/* display list post- need to use .map method (postList) */}
 
         </div>
-       
+
       </div>
 
       <div className="col-12 col-lg-3 mb-3">
-    
-          {/* username={Auth.getUsername()}
+
+        {/* username={Auth.getUsername()}
           friendCount={userData.user.friendCount}
           friends={userData.user.friends} */}
-          
-        
+
+
       </div>
 
     </>
