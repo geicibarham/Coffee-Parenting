@@ -9,7 +9,7 @@ import boy from '../../assets/images/boy.png'
 import neutral from '../../assets/images/neutral.png'
 import SavedNames from './savedNames';
 
-function Names(savedNameObj) {
+function Names() {
 
   const [randomElement, setrandomElement] =
     useState('');
@@ -17,18 +17,9 @@ function Names(savedNameObj) {
   const [meaning, setMeaning] =
     useState('');
 
-  // const [namesArray, setNamesarray] =
-  //   useState()
+  // const [SavedNames, setSavednames] =
+  // useState([]);
 
-  // const [items, setItems] = useState([]);
-
-  // useEffect(() => {
-  //   const items = JSON.parse
-  //     (localStorage.getItem('name'));
-  //   if (items) {
-  //     setItems(items);
-  //   }
-  // }, []);
 
   function getRandom() {
     let randomElement = girlNames[Math.floor(Math.random() * girlNames.length)];
@@ -51,7 +42,7 @@ function Names(savedNameObj) {
     let savedName = randomElement;
     // create array to store items on local storage
     let namesArray = [];
-    // check to see if there is anything on local storage
+ 
     if (localStorage.getItem('name')) {
       namesArray = JSON.parse(
         localStorage.getItem('name')
@@ -62,43 +53,22 @@ function Names(savedNameObj) {
     }
 
     console.log(namesArray.length)
-    console.log(savedNameObj)
+
     localStorage.setItem("name", JSON.stringify
       (namesArray))
-    // setNamesarray(namesArray)
 
-    // console.log(namesArray)
     console.log(namesArray)
   }
-  // create function to retrieve data from local storage
-  // this function will also set the state
- 
+
+
   return (
     <>
 
-
-      {/* {!namesArray &&
-        'no names saved'
-      } */}
-
+<section id="outer">
       <div
         className="App">
-          < SavedNames />
-        {/* <div style={{ width: "10%" }}>
+      
 
-          {
-            items &&
-            items.map((nameLocal) => (
-              <div key={nameLocal.meaning}
-                className="card mb-3">
-
-
-                <p style={{ color: "black" }}>
-                  {nameLocal.name}
-                </p>
-              </div>
-            ))}
-        </div> */}
         <h4 style={{ marginTop: "10px" }}>
           Generate Random Baby Name
           <img style={{ height: "60px" }}
@@ -136,7 +106,9 @@ function Names(savedNameObj) {
                   color: "red",
                   border: "none", backgroundColor: "white",
                   fontSize: "35px",
-                  marginLeft: "15px"
+                  marginLeft: "15px",
+                  marginTop:"10px"
+                
 
                 }}
                 onClick={save}>
@@ -146,22 +118,18 @@ function Names(savedNameObj) {
 
           </div>
           <div className='meaning-container'>
-            <p style={{ width: "50%", textAlign: "center" }}> {meaning}</p>
+            <p style={{fontSize:"smaller"
+             ,width: "50%", textAlign: "center" }}> {meaning}</p>
           </div>
-
-
-
-
-
-
-
-
         </div>
 
 
       </div>
-
+    
+      </section>
+      < SavedNames />
     </>
+ 
   );
 }
 

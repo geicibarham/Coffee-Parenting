@@ -6,10 +6,9 @@ import { ADD_POST } from '../../utils/mutations';
 import { QUERY_POSTS } from "../../utils/queries";
 import Auth from '../../utils/auth'
 import PostList from '../post-list'
-import Avatar from 'react-avatar';
 import { useParams } from 'react-router-dom';
 import { QUERY_USER } from '../../utils/queries';
-import FriendList from '../friend-list';
+
 
 
 function UserPage(posts) {

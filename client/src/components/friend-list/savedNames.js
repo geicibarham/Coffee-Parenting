@@ -1,42 +1,51 @@
 import React, { useState, useEffect } from 'react';
-
+import css from './name.css'
 
 
 function SavedNames() {
 
-  
-
-    const [items, setItems] = useState([]);
+    const [items, setItems] = React.useState(
+        JSON.parse(localStorage.getItem('name'))
+    );
     useEffect(() => {
         const items = JSON.parse
             (localStorage.getItem('name'));
-        
-            setItems(items);
-          
-    },[]);
+        // let itemslength = items.length
+        setItems(items);
+    }, []);
 
-  
+
+
     return (
-        <div style={{ width: "10%" }}>
 
+
+        <div style={{width:"fit-content"}}class="card">
+            <div style={{color:"white"}} class="card-header">
+               Saved Names
+            </div>
+            {/* <div style={{ width: "10%" }}> */}
+            {!items &&
+                'no names saved'
+            }
             {
                 items &&
                 items.map((nameLocal) => (
                     <div key={nameLocal.meaning}
-                        className="card mb-3">
+                      >
 
+                        <div class="card-body">
 
-                        <p style={{ color: "black" }}>
+                            <p class="card-text">
                             {nameLocal.name}
-                        </p>
+                            </p>
+                        </div>
+
+
+                      
                     </div>
                 ))}
         </div>
     )
-
-
-
-
 }
 
 export default SavedNames;
