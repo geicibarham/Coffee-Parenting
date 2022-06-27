@@ -19,13 +19,15 @@ function SavedNames() {
     return (
 
 
-        <div style={{width:"fit-content"}}class="card">
+        <div style={{width:"30%", textAlign:"center",
+        justifyContent:"center",
+         marginTop:"30px"}}class="card">
             <div style={{color:"white"}} class="card-header">
                Saved Names
             </div>
             {/* <div style={{ width: "10%" }}> */}
             {!items &&
-                'no names saved'
+                'No names yet'
             }
             {
                 items &&

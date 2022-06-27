@@ -42,7 +42,7 @@ function Names() {
     let savedName = randomElement;
     // create array to store items on local storage
     let namesArray = [];
- 
+
     if (localStorage.getItem('name')) {
       namesArray = JSON.parse(
         localStorage.getItem('name')
@@ -63,73 +63,80 @@ function Names() {
 
   return (
     <>
+      <section id="test">
+        <section id="outer">
+          <div
+            className="App">
 
-<section id="outer">
-      <div
-        className="App">
-      
 
-        <h4 style={{ marginTop: "10px" }}>
-          Generate Random Baby Name
-          <img style={{ height: "60px" }}
+            <h4 style={{ marginTop: "10px" }}>
+              Generate Random Baby Name
+              <img style={{ height: "60px" }}
 
-            src={baby} alt="baby stroller icon" />
-        </h4>
+                src={baby} alt="baby stroller icon" />
+            </h4>
 
-        <div className='button-container'>
-          <button id="girl"
-            onClick={getRandom} className="btn btn-info 
+            <div className='button-container'>
+              <button id="girl"
+                onClick={getRandom} className="btn btn-info 
             button-style">Girls
-            <img alt="girl-icon" style={{ height: "30px" }} src={girl} />
-          </button>
+                <img alt="girl-icon" style={{ height: "30px" }} src={girl} />
+              </button>
 
-          <button id="boy" onClick={getRandomboys}
-            className="btn btn-info button-style">Boys
-            <img alt="boy icon" style={{
-              height: "30px",
-              paddingLeft: "5px"
-            }} src={boy} /></button>
+              <button id="boy" onClick={getRandomboys}
+                className="btn btn-info button-style">Boys
+                <img alt="boy icon" style={{
+                  height: "30px",
+                  paddingLeft: "5px"
+                }} src={boy} /></button>
 
-          <button id="neutral" onClick={getRandomneutral}
-            className="btn btn-info button-style">Neutral
-            <img style={{ height: "30px" }} alt="neutral icon"
-              src={neutral} />
-          </button>
-        </div>
+              <button id="neutral" onClick={getRandomneutral}
+                className="btn btn-info button-style">Neutral
+                <img style={{ height: "30px" }} alt="neutral icon"
+                  src={neutral} />
+              </button>
+            </div>
 
-        <div className='outer-container'>
-          <div className='name-container'>
+            <div className='outer-container'>
+              <div className='name-container'>
 
-            <h1>{randomElement.name}
-              {randomElement && <button id="save"
-                style={{
-                  color: "red",
-                  border: "none", backgroundColor: "white",
-                  fontSize: "35px",
-                  marginLeft: "15px",
-                  marginTop:"10px"
-                
+                <h1>{randomElement.name}
+                  {randomElement && <button id="save"
+                    style={{
+                      color: "red",
+                      border: "none", backgroundColor: "white",
+                      fontSize: "35px",
+                      marginLeft: "15px",
+                      marginTop: "10px"
 
-                }}
-                onClick={save}>
-                &#9829;</button>}
-            </h1> <br />
+
+                    }}
+                    onClick={save}>
+                    &#9829;</button>}
+                </h1>
+
+
+              </div>
+              <div className='meaning-container'>
+                <p id="meaning" style={{
+                  fontSize: "12px"
+                  , textAlign: "center"
+                }}> {meaning}</p>
+              </div>
+            </div>
 
 
           </div>
-          <div className='meaning-container'>
-            <p style={{fontSize:"smaller"
-             ,width: "50%", textAlign: "center" }}> {meaning}</p>
-          </div>
-        </div>
 
+        </section>
 
-      </div>
-    
       </section>
-      < SavedNames />
+
+      <section id="saved">
+        < SavedNames />
+      </section>
     </>
- 
+
   );
 }
 

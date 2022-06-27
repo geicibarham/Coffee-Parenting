@@ -1,7 +1,13 @@
-#outer{
-    /* display: flex;
-    justify-content: space-around; */
-    display: inline;
+#outer {
+    width: fit-content;
+    display: contents;
+
+
+}
+
+#meaning p {
+    background-color: pink;
+    width: fit-content;
 }
 
 .button-container {
@@ -12,47 +18,66 @@
 }
 
 .button-style {
-    margin-right:25px;
-   
-    
-}
-#girl{
-    border:solid 1px white !important;
-    background-color:#e67364 !important;
-}
+    margin-right: 25px;
 
-#girl:hover{
-    background-color:#ff847c!important;
 
 }
-#boy{
-    border:solid 1px white !important;
+
+#girl {
+    border: solid 1px white !important;
+    background-color: #e67364 !important;
+}
+
+#girl:hover {
+    background-color: #ff847c !important;
+
+}
+
+#boy {
+    border: solid 1px white !important;
     background-color: #22b2da !important;
 }
-#boy:hover{
-    background-color: #40a8c4!important;
+
+#boy:hover {
+    background-color: #40a8c4 !important;
 }
 
-#neutral{
-    border:solid 1px white !important;
+#neutral {
+    border: solid 1px white !important;
     background-color: #fecd51 !important;
 }
-#neutral:hover{
-    background-color: #ffe700!important;
+
+#neutral:hover {
+    background-color: #ffe700 !important;
 }
-.meaning-container p{
-    margin:auto !important;
+
+.meaning-container {
+
+    display: inline-flexbox;
+    margin: auto;
+    width: 60%;
     text-align: center;
+
 }
 
 
 #save:hover {
     transform: scale(1.5);
-  }
+}
 
-  
-  .card-body, .card-text{
+
+.card-body,
+.card-text {
     line-height: 0.5 !important;
-  }
+}
 
 
+
+#saved {
+    display: flex;
+    margin-top: 30px;
+    padding-top: 30px;
+    justify-content: center;
+    margin: auto;
+   
+}
