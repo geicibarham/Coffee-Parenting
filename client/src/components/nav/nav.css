@@ -106,10 +106,10 @@ a {
 }
 
 li:hover {
-  background-color: #f4e4c2;
+  background-color: none;
   border-radius: 15px;
   text-shadow: none;
-  color: black;
+  
 }
 
 @media screen and (max-width: 980px) {

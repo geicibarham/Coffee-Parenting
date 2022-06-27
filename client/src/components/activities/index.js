@@ -22,8 +22,8 @@ function Activities() {
                 </ul>
                 
 
-                <p style={{ width: "20%", lineHeight: "40px", margin: "auto" }}>
-                    On the very days of our childhood, we still remember the cookies baked by mom, dad, or grandma.
+                <p style={{ width: "40%", lineHeight: "40px", margin: "auto" }}>
+                    From the very days of our childhood, we still remember the cookies baked by mom, dad, or grandma.
                     We can almost smell the dinner being cooked while we ran around the house, and we can almost feel
                     the tickles from dad or grandpa. < br />
                     Creating great memories fosters connection and boosts development and we are here to help.
@@ -33,8 +33,8 @@ function Activities() {
                   
                 </p>
                 <img style={{
-                    width: "500px",
-                    height: "500px",
+                    width: "350px",
+                    height: "350px",
                     marginRight: "10px",
                     borderRadius: "20px",
                   
