@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import css from './name.css'
-
+import trash from '../../assets/images/trash.png'
 
 function SavedNames() {
 
     const [items, setItems] = React.useState(
         JSON.parse(localStorage.getItem('name'))
     );
+
+    function clear () {
+        localStorage.clear()
+      }
     useEffect(() => {
         const items = JSON.parse
             (localStorage.getItem('name'));
@@ -24,6 +28,13 @@ function SavedNames() {
          marginTop:"30px"}}class="card">
             <div style={{color:"white"}} class="card-header">
                Saved Names
+
+               {items &&
+              <img id="trash"onClick={clear}style={{height:"30px"}}
+               src={trash} alt="icon for trash can"/>
+           
+               
+            }
             </div>
             {/* <div style={{ width: "10%" }}> */}
             {!items &&

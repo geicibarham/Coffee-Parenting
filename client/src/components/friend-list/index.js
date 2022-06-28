@@ -7,6 +7,7 @@ import baby from '../../assets/images/baby.png'
 import girl from '../../assets/images/girl.png'
 import boy from '../../assets/images/boy.png'
 import neutral from '../../assets/images/neutral.png'
+
 import SavedNames from './savedNames';
 
 function Names() {
@@ -59,6 +60,7 @@ function Names() {
 
     console.log(namesArray)
   }
+
 
 
   return (
