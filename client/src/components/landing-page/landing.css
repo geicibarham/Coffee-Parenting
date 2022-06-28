@@ -9,27 +9,18 @@
   height: 100%;
   /* padding: 250px; */
   background-size: cover;
- background-position: center-top;
+  background-position: center-top;
   background-attachment: fixed;
   width: 100%;
   text-shadow: 2px 2px black;
-  
+
 }
 
 .text-container {
-  /* display: flex;
-  
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start; */
- 
   margin-left: 20px;
   color: white;
 
 }
-
-
-
 .text {
   margin-right: 0px;
   margin: 20px 20px;
@@ -59,27 +50,27 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
-      
-      
+
+
     }
 
-    
+
 
   }
 
   @media (max-width: 775px) {
     #landing-container.custom-background {
-    background-size: contain;
-    background-position: center;
+      background-size: contain;
+      background-position: center;
     }
-    }
+  }
 
-    @media (max-width: 991px) {
-      .palette-primary .call-to-action {
+  @media (max-width: 991px) {
+    .palette-primary .call-to-action {
       padding: 0;
       margin: 0;
-      }
-      }
+    }
+  }
 
   @media screen and (max-width: 575px) {
 

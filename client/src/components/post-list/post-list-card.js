@@ -18,14 +18,19 @@ const PostCard = ({ username,post, handleFlag, handleVote }) => {
          
 
             <div className="card-body">
+
+
             <Link style={{color:"black"}}to={`/post/${post._id}`}> {post.title}
-                <p className="mb-0">{post.postContent}
+                <p className="mb-0">
+                    
+                    {post.postContent}
                 </p>
                 </Link>
                 <p>
                     {post.username}&nbsp;
                     posted on &nbsp;
                     {post.createdAt}
+                   
                 </p>
                 <img onClick={() => {
                     handleVote(post._id,);

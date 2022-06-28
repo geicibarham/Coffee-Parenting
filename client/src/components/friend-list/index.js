@@ -18,6 +18,8 @@ function Names() {
   const [meaning, setMeaning] =
     useState('');
 
+  const [items, setItems] =
+    useState([]);
   // const [SavedNames, setSavednames] =
   // useState([]);
 
@@ -59,9 +61,21 @@ function Names() {
       (namesArray))
 
     console.log(namesArray)
+    setItems(namesArray)
   }
 
 
+
+  function clear() {
+    localStorage.clear()
+    setItems([])
+  }
+  useEffect(() => {
+    const items = JSON.parse
+      (localStorage.getItem('name'));
+    // let itemslength = items.length
+    setItems(items);
+  }, []);
 
   return (
     <>
@@ -135,7 +149,7 @@ function Names() {
       </section>
 
       <section id="saved">
-        < SavedNames />
+        < SavedNames items={items} clear={clear} />
       </section>
     </>
 

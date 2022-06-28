@@ -10,13 +10,13 @@ function LandingPage() {
         <div id="landing-container">
           
                 <div className="text-container">
-                    <h4 id="working-app" className="text">Parenting is hard. 
+                    <h2 id="working-app" className="text">Parenting is hard. 
                    
               
-                    </h4>
+                    </h2>
                     < br />
                     <h5 className="text">
-                    You don't have to do it alone.. < br />
+                    You don't have to do it alone. < br />
                     Connect with other parents for a virtual coffee!< br />
                        </h5>
                        <h5>

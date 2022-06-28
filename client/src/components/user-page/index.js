@@ -92,16 +92,17 @@ function UserPage(posts) {
             </div>
           </form>
         </div>
-
+      
 
         <div id="post">
           
-
+       
           {loadingPosts ? (
             <div>Loading...</div>
           ) : (
 
             <PostList posts={allPosts} />
+            
           )}
 
 
