@@ -44,7 +44,7 @@
 
 ## <p align="center">**DEPLOYMENT**</p>
 ***
-### <p align="center">You can find our app deployed **[here on Heroku](https://powerful-sands-61970.herokuapp.com/)**</p>
+### <p align="center">You can find our app deployed **[here on Heroku](https://salty-shelf-69418.herokuapp.com)**</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
