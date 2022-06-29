@@ -64,7 +64,7 @@
 ### <p align="center">On the main page, you are able to see all the posts and make comments to help other parents, as well as 
   add reactions to parents posts (since we want to spread positivity on this website, we do not have an downvote button)._</p>
 
-![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/single.png)
+![App Image]([https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/single.png](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/single.png))
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) 
