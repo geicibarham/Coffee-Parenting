@@ -131,6 +131,12 @@ li:hover {
 
     }
 
+
+    #title {
+    margin-top: 15px;
+      font-size: 18px !important;
+     
+    }
     #dropdown-basic {
 
       font-size: 12px;

@@ -42,7 +42,8 @@ function SinglePost(props) {
 
               <p className="mb-0">{post.postContent} /</p>
              
-             
+              < br/>
+              < br/>
               <p>
                 {post.username}&nbsp;
             
