@@ -44,7 +44,7 @@
 
 ## <p align="center">**DEPLOYMENT**</p>
 ***
-### <p align="center">You can find our app deployed **[here on Heroku](https://salty-shelf-69418.herokuapp.com)**</p>
+### <p align="center">You can find my app deployed **[here on Heroku](https://salty-shelf-69418.herokuapp.com)**</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -55,13 +55,28 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-### <p align="center">_Here is the main page referred to as 'Checkout Code', where you can see a list of all users posts. Once logged in, you will be able to leave comments to help out other developers, like posts with really impressive code, or flag posts that maybe have some errors in their files to correct._</p>
-![App Image](./client/src/assets/images/main-page.png)
+### <p align="center">_Once logged in, you will be directed to the user page, where you are able to make posts and interact with other parents.
+![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/user.png)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### <p align="center">_Lastly, we have the user page, where you can create new posts and view all of your own existing posts._</p>
+### <p align="center">On the main page, you are able to see all the posts and make comments to help other parents, as well as 
+  add reactions to parents posts (since we want to spread positivity on this website, we do not have an downvote button)._</p>
 ![App Image](./client/src/assets/images/user-page.png)
+![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/single.png)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) 
+
+### <p align="center">On the activities page, parents are able to see ways to connect with their children according to different age groups.</p>
+
+![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/memories.png)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) 
+### 
+<p align="center">On the activities page, parents are able to see ways to create memories with their children according to different age groups.</p>
+![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/memories.png)
+
+### <p align="center">On the names page, parents are able to generate random baby names and save them to local storage.</p>
+![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/names.png)
+
 
 ### <p align="center">Created by Geiciane Barham ©2022<p>
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
