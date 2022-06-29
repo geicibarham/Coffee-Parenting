@@ -13,7 +13,7 @@
 1. **[Technologies](#technologies)**
 2. **[Challenges & Successes](#challengessuccesses)**
 3. **[Deployment](#deployment)**
-4. **[Usage](#usage)** 
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -48,7 +48,7 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<!-- ## <p align="center">**USAGE**</p>
+## <p align="center">**USAGE**</p>
 ***
 ### <p align="center">_When you open up the app, you will be invited to connect with other parents for a virtual coffee.</p>
 ![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/coffee-parenting.png)
@@ -64,7 +64,7 @@
 
 ### <p align="center">_Lastly, we have the user page, where you can create new posts and view all of your own existing posts._</p>
 ![App Image](./client/src/assets/images/user-page.png)
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) -->
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) 
 
 ### <p align="center">Created by Geiciane Barham ©2022<p>
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
