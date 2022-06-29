@@ -51,13 +51,13 @@
 
 ## <p align="center">**USAGE**</p>
 ***
-### <p align="center">_When you open up the app, you will be invited to connect with other parents for a virtual coffee.</p>
+### <p align="center">When you open up the app, you will be invited to connect with other parents for a virtual coffee.</p>
 ![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/coffee-parenting.png)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-### <p align="center">_Once logged in, you will be directed to the user page, where you are able to make posts and interact with other parents.
+### <p align="center">Once logged in, you will be directed to the user page, where you are able to make posts and interact with other parents.
 ![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/main.png)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
