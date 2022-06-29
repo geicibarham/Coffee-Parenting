@@ -51,7 +51,7 @@
 <!-- ## <p align="center">**USAGE**</p>
 ***
 ### <p align="center">_When you open up the app, you will be invited to connect with other parents for a virtual coffee.</p>
-![App Image](./client/src/assets/images/home-page.png)
+![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/coffee-parenting.png)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### <p align="center">_When you click on 'Join' in the nav bar, you will be taken to this page to enter your information to sign up for an account._</p>
