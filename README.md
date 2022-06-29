@@ -13,6 +13,7 @@
 1. **[Technologies](#technologies)**
 2. **[Challenges & Successes](#challengessuccesses)**
 3. **[Deployment](#deployment)**
+4.  **[Usage](#usage)**
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -31,9 +32,10 @@
 ## <p align="center">**CHALLENGES & SUCCESSES**</p>
 ***
 ### Challenges:
-* Consistancy in the names of endpoints for the front and back end.
+* Consistency in the names of endpoints for the front and back end.
 * React state managenment.
 * Using GraphQL for the first time.
+* GraphQl returning with a 200 status, but there were errors.
 
 ### Successes:
 * Taking all errors as learning opportunities.
@@ -46,17 +48,17 @@
 ***
 ### <p align="center">You can find my app deployed **[here on Heroku](https://salty-shelf-69418.herokuapp.com)**</p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## <p align="center">**USAGE**</p>
 ***
 ### <p align="center">_When you open up the app, you will be invited to connect with other parents for a virtual coffee.</p>
 ![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/coffee-parenting.png)
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
 ### <p align="center">_Once logged in, you will be directed to the user page, where you are able to make posts and interact with other parents.
-![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/user.png)
+![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/main.png)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### <p align="center">On the main page, you are able to see all the posts and make comments to help other parents, as well as 
@@ -64,10 +66,6 @@
 ![App Image](./client/src/assets/images/user-page.png)
 ![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/single.png)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) 
-
-### <p align="center">On the activities page, parents are able to see ways to connect with their children according to different age groups.</p>
-
-![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/memories.png)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) 
 ### 
