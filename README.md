@@ -54,9 +54,6 @@
 ![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/coffee-parenting.png)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### <p align="center">_When you click on 'Join' in the nav bar, you will be taken to this page to enter your information to sign up for an account._</p>
-![App Image](https://github.com/geicibarham/Coffee-Parenting/blob/main/client/src/assets/images/coffee-parenting.png)
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### <p align="center">_Here is the main page referred to as 'Checkout Code', where you can see a list of all users posts. Once logged in, you will be able to leave comments to help out other developers, like posts with really impressive code, or flag posts that maybe have some errors in their files to correct._</p>
 ![App Image](./client/src/assets/images/main-page.png)
