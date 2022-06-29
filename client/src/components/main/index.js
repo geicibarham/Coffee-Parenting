@@ -30,7 +30,11 @@ function Main() {
             </h3>
 
             {/* <PostList posts={posts} /> */}
-            <PostList username={posts.username} 
+            <PostList 
+         
+
+            // content={posts.postContent}
+
             posts={posts} postId={posts._id} />
           </>
         )}

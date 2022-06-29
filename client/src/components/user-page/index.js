@@ -22,7 +22,7 @@ function UserPage(posts) {
   const { data: userData, loading: loadingPosts, refetch } =
     useQuery(QUERY_USER, { variables: { username: Auth.getUsername() } });
   const allPosts = userData?.user.posts || [];
-  // console.log('userData', userData);
+  console.log('userData', userData);
 
 
   const handleSubmit = async (event) => {
@@ -92,34 +92,28 @@ function UserPage(posts) {
             </div>
           </form>
         </div>
-      
+
 
         <div id="post">
-          
-       
+
+
           {loadingPosts ? (
             <div>Loading...</div>
           ) : (
 
             <PostList posts={allPosts} />
-            
+
+
           )}
-
-
+          <br />
+          {posts.postContent}
           {/* display list post- need to use .map method (postList) */}
 
+          <br />
         </div>
 
       </div>
 
-      <div className="col-12 col-lg-3 mb-3">
-
-        {/* username={Auth.getUsername()}
-          friendCount={userData.user.friendCount}
-          friends={userData.user.friends} */}
-
-
-      </div>
 
     </>
 

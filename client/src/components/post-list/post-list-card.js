@@ -20,12 +20,14 @@ const PostCard = ({ username,post, handleFlag, handleVote }) => {
             <div className="card-body">
 
 
-            <Link style={{color:"black"}}to={`/post/${post._id}`}> {post.title}
+            <Link style={{color:"black"}}to={`/post/${post._id}`}>
                 <p className="mb-0">
                     
                     {post.postContent}
                 </p>
                 </Link>
+                < br />
+                < br />
                 <p>
                     {post.username}&nbsp;
                     posted on &nbsp;
@@ -45,7 +47,9 @@ const PostCard = ({ username,post, handleFlag, handleVote }) => {
 
 
 
-                <img onClick={() => handleFlag(post._id)} class="icon" style={{ height: "30px" }} src={omg}
+                <img onClick={() => 
+                handleFlag(post._id)} class="icon" 
+                style={{ height: "30px" }} src={omg}
                     alt="heart icon fro likes" />
                 <span >  &nbsp;
                     {post.flagCount ? post.flagCount : ''} </span>

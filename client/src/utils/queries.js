@@ -66,6 +66,7 @@ query user($username: String!) {
       _id
       title
       createdAt
+    postContent
       username
       commentCount
       flags {
