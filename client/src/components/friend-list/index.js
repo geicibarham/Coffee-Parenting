@@ -67,7 +67,7 @@ function Names() {
 
 
   function clear() {
-    localStorage.clear()
+    localStorage.removeItem('name')
     setItems([])
   }
   useEffect(() => {

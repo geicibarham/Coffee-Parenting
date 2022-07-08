@@ -33,8 +33,10 @@ const Comment = ({ comments }) => {
                   key={comment._id}
                 >
                   {comment.commentText} {""}
+                  key={comment._id}
                   <br />
                   {comment.username} on {comment.createdAt}
+                  key={comment._id}
                 </p>
               ))}
           </div>

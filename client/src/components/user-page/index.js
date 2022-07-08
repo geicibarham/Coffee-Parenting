@@ -22,8 +22,8 @@ function UserPage(posts) {
   const { data: userData, loading: loadingPosts, refetch } =
     useQuery(QUERY_USER, { variables: { username: Auth.getUsername() } });
   const allPosts = userData?.user.posts || [];
-  console.log('userData', userData);
 
+  // console.log(userData?.user.friendCount)
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -63,6 +63,8 @@ function UserPage(posts) {
       <div className='user-post-page'>
 
         <div>
+
+          {/* <p>   {userData?.user.friendCount}</p> */}
           {!Auth.loggedIn() && <p style={{ color: "#774c2a", fontWeight: "light" }}>You need to be logged in, friend!</p>}
           <form className="post-form" onSubmit={handleSubmit}>
             <h1>Create New Post</h1>
@@ -111,6 +113,7 @@ function UserPage(posts) {
 
           <br />
         </div>
+
 
       </div>
 

@@ -63,7 +63,7 @@ const PostList = ({ username,posts, title }) => {
         {posts &&
           posts.map(post => (
            
-            < PostListCard post={post} 
+            < PostListCard post={post} key={post._id} 
            
             handleVote={handleVote} handleFlag={handleFlag} />
 
