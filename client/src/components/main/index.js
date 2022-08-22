@@ -20,10 +20,10 @@ function Main() {
           <>
             <h3
               style={{
-                textShadow: "2px 2px black",
+                // textShadow: "2px 2px black",
                 textAlign: "center",
                 paddingTop: "10px",
-                color: "white",
+                color: "#1b2a4c",
               }}
             >
               What other parents are saying...

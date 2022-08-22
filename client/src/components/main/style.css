@@ -17,8 +17,9 @@ h3 {
  
   background-size: cover;
   background-attachment: fixed;
-  background-image: url(../../assets/images/park.jpg);
-  background-image: url(../../assets/images/dad.jpg);
+  /* background-image: url(../../assets/images/park.jpg);
+  background-image: url(../../assets/images/dad.jpg); */
+ background-color: #f0f2f5;;
   width: 100%;
 }
 

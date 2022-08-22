@@ -12,9 +12,10 @@ const postSchema = new Schema({
   },
   postContent: {
     type: String,
-    required: 'Please enter a message about your project friend!',
+    required: 'Please enter a valid content!',
     minlength: 1,
     maxlength: 280
+  
   },
 
  
@@ -87,6 +88,7 @@ const postSchema = new Schema({
     }
   }
 );
+
 postSchema.virtual('voteCount').get(function () {
   return this.votes.length;
 });

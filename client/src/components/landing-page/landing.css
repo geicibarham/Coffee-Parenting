@@ -1,29 +1,119 @@
-#landing-container {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  display: flex;
-  background-image: url(../../assets/images/park.jpg);
-  background-image: url(../../assets/images/dad.jpg);
-  background-repeat: no-repeat;
-  height: 100%;
-  /* padding: 250px; */
+.image__1 {
+  background-image: url('../../assets/images/horizontal.jpg');
   background-size: cover;
-  background-position: center-top;
-  background-attachment: fixed;
-  width: 100%;
-  text-shadow: 2px 2px black;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 350px;
+  background-position: 50%;
+  border-radius: 0 !important;
+  align-items: flex-start
+}
+
+.image__2 {
+  background-image: url('../../assets/images/mom-read.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 350px;
+  background-position: 50%;
+  border-radius: 0 !important;
+
+}
+
+.image__3 {
+
+
+  background-image: url('../../assets/images/name.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 350px;
+  background-position: 50%;
+  border-radius: 0 !important;
+  align-items: flex-start
+}
+
+
+
+.image__1,
+h6 {
+
+  padding-left: 10px;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 20px;
+  background-color: transparent;
+  padding-top: 30px;
+
+
+}
+
+.image__2,
+h6 {
+
+  padding-left: 10px;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 20px;
+  background-color: transparent;
+  padding-top: 30px;
+
+
+}
+
+.image__3,
+h6 {
+
+
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 20px;
+  background-color: transparent;
+  padding-top: 30px;
 
 }
 
 .text-container {
   margin-left: 20px;
-  color: white;
+  color: black;
 
 }
+
 .text {
   margin-right: 0px;
   margin: 20px 20px;
+}
+
+.Carousel-button-7 {
+
+  background-color: transparent !important;
+  display: block;
+
+
+}
+
+.MuiSvgIcon-root {
+  font-size: 4rem !important;
+  color: #1b2a4c;
+  opacity: 1;
+  align-self: flex-start;
+}
+
+circle {
+  display: none;
+}
+
+.buttons__login {
+  padding: 300px;
 }
 
 @media screen and (max-width: 980px) {

@@ -1,47 +1,60 @@
-import dog from '../../assets/images/dog-cartoon.png'
-import css from './landing.css'
-import Footer from '../footer';
-import Header from '../header';
-import Join from '../join';
+import React from 'react';
+import Carousel from 'react-material-ui-carousel';
+import { Paper, Button } from '@material-ui/core';
+import './landing.css'
+function Carousell(props) {
+    const items = [
+        {
 
-function LandingPage() {
+            description: 'Parenting is hard! You dont have to do it alone. Connect with other parents for a virtual coffee!',
+            className: 'image__1'
+        },
+        {
+
+            description: 'Because we Know parenting comes with a lot of reading, ' +
+                'we provide sources with information for different age groups!',
+            className: 'image__2'
+        },
+        {
+
+
+            className: 'image__3',
+            description: 'Expecting? Here you can generate and save random baby names!'
+        },
+    ];
+
+
     return (
-        <>
-        <div id="landing-container">
-          
-                <div className="text-container">
-                    <h2 id="working-app" className="text">Parenting is hard. 
-                   
-              
-                    </h2>
-                    < br />
-                    <h5 className="text">
-                    You don't have to do it alone. < br />
-                    Connect with other parents for a virtual coffee!< br />
-                       </h5>
-                       <h5>
-                        
+        <Carousel
+            fullHeightHover={false}
+            navButtonsAlwaysVisible={true}
 
-                       </h5>
-                     
-                </div>
-              
-               
-                
-          
-            
-            <div style={{width:"100%"}}>
-                < Join />
-                </div>
-          
-            <div>
-            </div>
-            </div>
-                {/* < Footer /> */}
-        
-        
-        </>
+            autoPlay={false}>
+
+            {
+
+                items.map((item, i) => <Item key={i} item={item} />)
+            }
+        </Carousel>
     )
 }
 
-export default LandingPage;
+
+function Item(props) {
+    return (
+        <>
+
+            <Paper className={props.item.className}>
+                <div style={{ width: "30%", display: 'flex' }}>
+                    <h6>{props.item.description} </h6>
+                </div>
+            </Paper>
+
+
+        </>
+
+    )
+
+
+}
+export default Carousell;

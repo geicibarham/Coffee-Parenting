@@ -10,14 +10,13 @@ const Comment = ({ comments }) => {
           <div class="card">
             <div class="card-body">
               <h4
-                style={{ color: "black", textAlign: "center",}}
+                style={{ color: "black", textAlign: "center" }}
                 class="card-title"
               >
                 Recent Comments
               </h4>
               <h6
-                style={{ color: "black", textAlign: "center",
-               }}
+                style={{ color: "black", textAlign: "center" }}
                 class="card-subtitle"
               >
                 Latest Comments by users
@@ -33,10 +32,10 @@ const Comment = ({ comments }) => {
                   key={comment._id}
                 >
                   {comment.commentText} {""}
-                  key={comment._id}
+                  {/* key={comment._id} */}
                   <br />
                   {comment.username} on {comment.createdAt}
-                  key={comment._id}
+                  {/* key={comment._id} */}
                 </p>
               ))}
           </div>

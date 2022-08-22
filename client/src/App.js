@@ -22,7 +22,7 @@ import Sixmonths from "./components/activities/6months";
 import OneThree from "./components/activities/one-three";
 import Three from "./components/activities/3+";
 import Names from "./components/friend-list";
-
+import Home from "./components/home/home";
 const httpLink = createHttpLink({
   uri: "/graphql",
 });
@@ -61,7 +61,7 @@ function App() {
 
             <Routes>
               <Route path="/names" element={<Names />} />
-              <Route path="/" element={<LandingPage />} />
+              <Route path="/" element={<Home />} />
               <Route path="/activities" element={<Activities />} />
               <Route path="/sixmonths" element={<Sixmonths />} />
               <Route path="/one-three" element={<OneThree />} />
