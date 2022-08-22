@@ -6,16 +6,12 @@ h1 {
 }
 
 
-.user-post-page {
+#outer__container {
   display: flex;
-
   flex-wrap: nowrap;
   justify-content: space-evenly;
-  /* justify-content: flex-start;
-  align-items: flex-start; */
   margin-left: 10px;
-  /* justify-content: left;
-  align-items: center; */
+
 }
 
 .post-form {
@@ -28,7 +24,7 @@ h1 {
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: black;
-  border: solid 1px #774c2a;
+  border: solid 1px #1b2a4c;
 }
 
 .form-input {
@@ -64,13 +60,24 @@ h1 {
   flex-direction: row;
 }
 
-#post {
-  width: 80%;
-}
-
 ::placeholder {
   color: #1b2a4c;
   font-weight: lighter;
   font-size: smaller;
 }
 
+@media screen and (max-width:775px) {
+  .post-form {
+
+    width: fit-content;
+  }
+
+  #outer__container {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+
+
+}

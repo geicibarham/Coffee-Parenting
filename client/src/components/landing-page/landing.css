@@ -95,10 +95,18 @@ h6 {
 
 .Carousel-button-7 {
 
-  background-color: transparent !important;
   display: block;
 
 
+
+}
+
+#root>div>div.Carousel-root-1>div.Carousel-buttonWrapper-5.Carousel-next-11>button {
+  background-color: transparent;
+}
+
+#root>div>div.Carousel-root-1>div.Carousel-buttonWrapper-5.Carousel-prev-12>button {
+  background-color: transparent;
 }
 
 .MuiSvgIcon-root {

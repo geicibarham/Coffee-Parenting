@@ -54,13 +54,15 @@ function UserPage(posts) {
   return (
 
     <>
-
       {Auth.loggedIn() && <h4 style={{
         textTransform: "capitalize",
         textAlign: "center", paddingTop: "20px"
       }}>
         Welcome {Auth.getUsername()}!</h4>}
-      <div className='user-post-page'>
+      <section id="outer__container">
+
+
+        {/* <div className='user-post-page'> */}
 
         <div>
 
@@ -96,30 +98,30 @@ function UserPage(posts) {
         </div>
 
 
-        <div id="post">
 
 
-          {loadingPosts ? (
-            <div>Loading...</div>
-          ) : (
 
-            <PostList posts={allPosts} />
+        {loadingPosts ? (
+          <div>Loading...</div>
+        ) : (
 
-
-          )}
-          <br />
-          {posts.postContent}
-          {/* display list post- need to use .map method (postList) */}
-
-          <br />
-        </div>
+          <PostList posts={allPosts} />
 
 
-      </div>
+        )}
+        <br />
+        {posts.postContent}
+        {/* display list post- need to use .map method (postList) */}
+
+        <br />
 
 
+
+
+
+
+      </section>
     </>
-
   );
 }
 export default UserPage;

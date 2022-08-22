@@ -2,7 +2,7 @@
     padding-top: 20px;
 
     margin: auto;
-    width: 60%;
+    width: fit-content;
 
 }
 
@@ -14,12 +14,12 @@
 
 .ternary {
     padding-top: 10px;
-    color: #1b2a4c!important;
+    color: #1b2a4c !important;
     font-weight: bold;
 }
 
 .card-header {
-    background-color: #1b2a4c!important;
+    background-color: #1b2a4c !important;
 }
 
 #glass {
@@ -31,13 +31,13 @@
     border: solid 1px white;
 }
 
-#addForm {
+/* #addForm {
 
 
     width: 100%;
-    
-}
 
-.icon:hover{
-    transform: scale(1.5); 
+} */
+
+.icon:hover {
+    transform: scale(1.5);
 }
