@@ -4,12 +4,19 @@
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  flex-wrap: nowrap;
   height: 350px;
   background-position: 50%;
   border-radius: 0 !important;
-  align-items: flex-start
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+
+.image__1 span {
+  width: 30%;
+  align-self: center;
+  text-shadow: '1px 1px black',
 }
 
 .image__2 {
@@ -22,9 +29,50 @@
   align-items: flex-start;
   height: 350px;
   background-position: 50%;
-  border-radius: 0 !important;
+  justify-content: space-between;
+  transition: width 2s, height 4s;
 
 }
+
+.image__2 span {
+  width: 30%;
+  align-self: flex-start;
+  text-shadow: '1px 1px black';
+  margin-right: 30px;
+
+}
+
+.image__3 span {
+  width: 30%;
+  align-self: flex-start;
+  text-shadow: '1px 1px black';
+  margin-right: 30px;
+
+}
+
+.arrows {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: pink;
+  align-self: center;
+  /* grid-gap: 50px; */
+
+
+}
+
+#right__arrow {
+  cursor: pointer;
+  align-self: center;
+}
+
+#left__arrow {
+  cursor: pointer;
+  align-self: center;
+}
+
+
+
 
 
 .image__3 {
@@ -40,7 +88,8 @@
   height: 350px;
   background-position: 50%;
   border-radius: 0 !important;
-  align-items: flex-start
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 
@@ -83,11 +132,7 @@ h6 {
 
 }
 
-.text-container {
-  margin-left: 20px;
-  color: black;
 
-}
 
 .text {
   margin-right: 0px;
@@ -102,24 +147,14 @@ h6 {
 
 }
 
-#root>div>div.Carousel-root-1>div.Carousel-buttonWrapper-5.Carousel-next-11>button {
-  background-color: transparent;
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#root>div>div.Carousel-root-1>div.Carousel-buttonWrapper-5.Carousel-prev-12>button {
-  background-color: transparent;
-}
-
-.MuiSvgIcon-root {
-  font-size: 4rem !important;
-  color: #1b2a4c;
-  opacity: 1;
-  align-self: flex-start;
-}
-
-circle {
-  display: none;
-}
 
 .buttons__login {
   padding: 300px;

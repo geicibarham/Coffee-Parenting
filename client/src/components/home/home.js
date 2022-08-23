@@ -2,6 +2,7 @@ import Carousell from '../landing-page/index'
 import Footer from '../footer';
 import './home.css'
 import { Link } from "react-router-dom";
+
 const Home = () => {
     return (
         <>

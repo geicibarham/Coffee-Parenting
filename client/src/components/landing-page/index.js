@@ -1,12 +1,15 @@
-import React from 'react';
-import Carousel from 'react-material-ui-carousel';
-import { Paper, Button } from '@material-ui/core';
+import React, { useState } from 'react';
+import right from '../../assets/images/arrow.png'
+import left from '../../assets/images/arrow-left.png'
 import './landing.css'
 function Carousell(props) {
+    const [first, setFirst] = useState(true)
+    const [second, setSecond] = useState(false)
+    const [third, setThird] = useState(false)
     const items = [
         {
 
-            description: 'Parenting is hard! You dont have to do it alone. Connect with other parents for a virtual coffee!',
+            description: 'Parenting is hard! But you dont have to do it alone. Connect with other parents for a virtual coffee!',
             className: 'image__1'
         },
         {
@@ -23,38 +26,100 @@ function Carousell(props) {
         },
     ];
 
+    const First = () => {
+        setFirst(false)
+    }
+    const next = () => {
+        setSecond(true)
+        setFirst(false)
+    }
+    const last = () => {
+        setThird(true)
+        setSecond(false)
+        setFirst(false)
+    }
+    const back = () => {
+        setFirst(true)
+        setSecond(false)
+        setThird(false)
+    }
+    const startAgain = () => {
+        setThird(false)
+        setFirst(true)
+    }
+    const startAgain2 = () => {
+        setThird(false)
+        setSecond(true)
 
-    return (
-        <Carousel
-            fullHeightHover={false}
-            navButtonsAlwaysVisible={true}
-
-            autoPlay={false}>
-
-            {
-
-                items.map((item, i) => <Item key={i} item={item} />)
-            }
-        </Carousel>
-    )
-}
-
-
-function Item(props) {
+    }
     return (
         <>
 
-            <Paper className={props.item.className}>
-                <div style={{ width: "30%", display: 'flex' }}>
-                    <h6>{props.item.description} </h6>
-                </div>
-            </Paper>
+            {/* {
+                items.map((item) => (
+                    <div className={item.className}>
+                        <p>{item.description}</p>
+                    </div>
 
+                ))
+
+
+            } */}
+            {
+                first &&
+                <div className={items[0].className}>
+
+                    <span>{items[0].description}</span>
+
+
+                    < img id="right__arrow" onClick={next} height="70px"
+                        src={right} alt='right arrow' />
+
+                </div>
+            }
+            {
+                second &&
+
+                <>
+
+                    <div className={items[1].className}>
+
+
+                        < img id="left__arrow" onClick={back} height="70px"
+                            src={left} alt='right arrow' />
+                        <span>{items[1].description}</span>
+                        < img id="right__arrow" onClick={last} height="70px"
+                            src={right} alt='right arrow' />
+
+
+                    </div>
+                </>
+            }
+            {
+                third &&
+                <>
+                    <div className={items[2].className}>
+                        < img id="left__arrow" onClick={startAgain2} height="70px"
+
+                            src={left} alt='right arrow' />
+                        <span>{items[2].description}</span>
+                        < img id="right__arrow" onClick={startAgain} height="70px"
+                            src={right} alt='right arrow' />
+                    </div>
+                </>
+
+            }
 
         </>
-
     )
-
-
 }
+
+
+
+
+
+
+
+
+
 export default Carousell;
