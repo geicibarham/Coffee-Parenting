@@ -11,7 +11,7 @@ function Carousell(props) {
         },
         {
 
-            description: 'Because we know parenting comes with a lot of reading, ' +
+            description: 'Because we Know parenting comes with a lot of reading, ' +
                 'we provide sources with information for different age groups!',
             className: 'image__2'
         },

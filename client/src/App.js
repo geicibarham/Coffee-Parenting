@@ -23,6 +23,14 @@ import OneThree from "./components/activities/one-three";
 import Three from "./components/activities/3+";
 import Names from "./components/friend-list";
 import Home from "./components/home/home";
+import { ThemeProvider, createMuiTheme, makeStyles } from '@material-ui/core/styles';
+const theme = createMuiTheme();
+
+const useStyles = makeStyles((theme) => {
+  root: {
+    // some CSS that accesses the theme
+  }
+});
 const httpLink = createHttpLink({
   uri: "/graphql",
 });
@@ -52,35 +60,38 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    <ApolloProvider client={client}>
-      <>
-        <Router>
-          <div className="flex-column justify-flex-start min-100-vh">
-            {/* < LandingPage /> */}
-            <Header />
+    <ThemeProvider theme={theme}>
 
-            <Routes>
-              <Route path="/names" element={<Names />} />
-              <Route path="/" element={<Home />} />
-              <Route path="/activities" element={<Activities />} />
-              <Route path="/sixmonths" element={<Sixmonths />} />
-              <Route path="/one-three" element={<OneThree />} />
-              <Route path="/three" element={<Three />} />
-              <Route path="/join" element={<Join />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/main" element={<Main />} />
-              <Route path="/user-page" element={<UserPage />} />
-              <Route
-                path="/post/:id"
-                element={<SinglePost />}
-              />
-              <Route path="*" element={<NoMatch />} />
+      <ApolloProvider client={client}>
+        <>
+          <Router>
+            <div className="flex-column justify-flex-start min-100-vh">
+              {/* < LandingPage /> */}
+              <Header />
 
-            </Routes>
-          </div>
-        </Router>
-      </>
-    </ApolloProvider>
+              <Routes>
+                <Route path="/names" element={<Names />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/activities" element={<Activities />} />
+                <Route path="/sixmonths" element={<Sixmonths />} />
+                <Route path="/one-three" element={<OneThree />} />
+                <Route path="/three" element={<Three />} />
+                <Route path="/join" element={<Join />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/main" element={<Main />} />
+                <Route path="/user-page" element={<UserPage />} />
+                <Route
+                  path="/post/:id"
+                  element={<SinglePost />}
+                />
+                <Route path="*" element={<NoMatch />} />
+
+              </Routes>
+            </div>
+          </Router>
+        </>
+      </ApolloProvider>
+    </ThemeProvider>
   );
 }
 
