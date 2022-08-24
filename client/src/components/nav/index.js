@@ -7,6 +7,7 @@ import { NavLink } from "react-router-dom";
 import coffee from "../../assets/images/coffee-grains.png";
 import randomColor from "randomcolor";
 import DrawerNav from "./drawer";
+import Test from "./test";
 function Nav() {
   <style>
     @import
@@ -17,6 +18,11 @@ function Nav() {
     Auth.logout();
   };
 
+  const [test, setTest] = useState(false)
+
+  const change = () => {
+    setTest(true)
+  }
   return (
     <nav id="main-nav">
       <h3 id="title">
@@ -45,7 +51,11 @@ function Nav() {
 
 
         )}
+        {/* <button onClick={change}>test</button> */}
 
+        {test &&
+          <Test />
+        }
 
         <a
           id="menu"
