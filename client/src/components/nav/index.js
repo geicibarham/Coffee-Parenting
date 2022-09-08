@@ -1,5 +1,5 @@
-import react from "react";
-import { useState, useContext } from "react";
+
+import React,{ useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
 import Auth from "../../utils/auth";
@@ -9,10 +9,10 @@ import randomColor from "randomcolor";
 import DrawerNav from "./drawer";
 import Test from "./test";
 function Nav() {
-  <style>
-    @import
-    url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
-  </style>;
+  // <style>
+  //   @import
+  //   url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+  // </style>;
   const logout = (event) => {
     event.preventDefault();
     Auth.logout();

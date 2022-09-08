@@ -1,4 +1,4 @@
-import react from 'react'
+import React from 'react'
 import css from './style.css'
 import play from '../../assets/images/play.jpg'
 import { Link } from 'react-router-dom'

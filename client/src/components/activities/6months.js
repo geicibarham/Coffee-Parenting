@@ -5,11 +5,9 @@ import water from '../../assets/images/water.jpg'
 import css from './style.css'
 import Footer from '../footer'
 import { Link } from 'react-router-dom'
+import React from 'react'
 function Sixmonths() {
-    return (
-
-
-        <>
+    return ( <>
 
 
             <h3 style={{

@@ -6,7 +6,7 @@ import draw from '../../assets/images/draw.jpg'
 import toddler from '../../assets/images/toddler.jpg'
 import block from '../../assets/images/blocks.jpg'
 import outdoor from '../../assets/images/outdoor.jpg'
-
+import React from 'react'
 function Three() {
     return (
 
