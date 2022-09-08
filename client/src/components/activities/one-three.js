@@ -5,12 +5,9 @@ import { Link } from 'react-router-dom'
 import kid from '../../assets/images/child-walking.jpg'
 import toddler from '../../assets/images/toddler.jpg'
 import rainbow from '../../assets/images/rainbow.jpg'
-
+import React from 'react'
 function OneThree() {
-    return (
-
-
-        <>
+    return ( <>
 
 
             <h3 style={{
