@@ -1,20 +1,38 @@
-#six-month-container {
-padding-bottom: 30px;
-flex-wrap: nowrap;
+#outer_container {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    column-gap: 3em;
 }
 
-#activity-container{
+
+
+
+#first_container {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    column-gap: 3em;
+    row-gap: 3em;
+}
+
+h4 {
+    font-weight: lighter;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* #activity-container{
     display: flex;
  flex-wrap: nowrap;
  margin-bottom: 30px;
 
 
  
-}
-#image {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
+} */
+#second_row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     font-weight: lighter;
 }
 
@@ -22,20 +40,26 @@ flex-wrap: nowrap;
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-    
+
+}
+
+#description {
+    padding: 25px;
+    text-align: justify;
+
 }
 
 #activity-list {
 
     color: black !important;
-    ;
+
     background-color: #1b2a4c;
-    width: 20%;
     list-style: none;
     border-radius: 20px;
     margin-left: 15px;
     padding-top: 20px;
     height: fit-content;
+
 
 }
 
@@ -48,11 +72,65 @@ li:hover {
     color: none
 }
 
-.tips{
-    
+.tips {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
- 
-   
+
+
+}
+
+#baby_first_row {
+    width: 350px;
+    border-radius: 20px;
+    margin-left: 20px
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    color: #1b2a4c
+}
+
+#last_row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+@media screen and (max-width:775px) {
+
+    #first_container {
+
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    #last_row {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    #second_row {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    #outer_container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+    }
+
+    #activity-list {
+        width: 60%;
+    }
+
+    #description {
+        width: 70%;
+    }
+
+    #kid_playing {
+        width: 40%;
+    }
 }
