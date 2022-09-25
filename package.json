@@ -30,15 +30,7 @@
     "concurrently": "^7.4.0"
   },
   "dependencies": {
-    "@babel/core": "^7.19.0",
-    "@emotion/react": "^11.10.4",
-    "@emotion/styled": "^11.10.4",
-    "@mui/material": "^5.10.4",
-    "bootstrap": "^5.2.1",
-    "jwt-decode": "^3.1.2",
-    "randomcolor": "^0.6.2",
-    "react-avatar": "^5.0.3",
-    "react-bootstrap": "^2.5.0",
-    "react-icons": "^4.4.0"
+    "@babel/core": "^7.19.0"
+   
   }
 }
