@@ -1,0 +1,63 @@
+.secondary{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.form-login {
+ 
+  background-color: #c2388496 !important;
+  padding: 20px;
+  margin: 3.5%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: black;
+  border: solid 1px #1b2a4c;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  width: 40%;
+  
+}
+
+
+
+#form_outer_container_login {
+  min-height: 80vh;
+  background-image: url('../../assets/images/pink-coffee.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+
+}
+
+h5 {
+  color: #1b2a4c;
+  text-align: center;
+  padding-bottom: 8px
+}
+
+#btn-submit-login {
+  background-color: #1b2a4c;
+  border: none;
+  color: white;
+}
+
+#btn-submit-login:hover {
+  background-color: #a1114e;
+}
+
+@media screen and (max-width:775px) {
+  #form_outer_container_login{
+    background-image: url('../../assets/images/pink-coffee-small.jpg');
+    background-size: cover;
+  background-position: center;
+ 
+  }
+
+  .form-login{
+width: 70%;
+margin-top: 40px;
+  }
+}

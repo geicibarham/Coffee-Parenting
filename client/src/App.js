@@ -63,7 +63,7 @@ function App() {
     <ApolloProvider client={client}>
       <>
         <Router>
-          <div className="flex-column justify-flex-start min-100-vh">
+          {/* <div className="flex-column justify-flex-start min-100-vh"> */}
             {/* < LandingPage /> */}
             <Header />
 
@@ -85,7 +85,7 @@ function App() {
               <Route path="*" element={<NoMatch />} />
 
             </Routes>
-          </div>
+          {/* </div> */}
         </Router>
       </>
     </ApolloProvider>

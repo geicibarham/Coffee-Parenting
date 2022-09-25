@@ -1,9 +1,9 @@
 import Auth from '../../utils/auth';
-import css from '../../components/join/join.css'
+import Footer from '../footer/index'
 import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../../utils/mutations'
-
+import './login.css'
 
 const Login = () => {
 
@@ -42,15 +42,12 @@ const Login = () => {
   }
   return (
     <>
-      <main className="">
-        <div className="login">
-          <form id="login"className="form-login" 
+    
+      <section id="form_outer_container_login">
+        <div className="secondary">
+          <form className="form-login" 
             onSubmit={handleFormSubmit}>
-            <h5 style={{
-              color: "black",
-              textAlign: "center",
-              paddingBottom: "8px"
-            }}>Welcome Back! </h5>
+            <h5>Welcome Back! </h5>
             <input
               className="form-input"
               placeholder="Your email"
@@ -71,7 +68,7 @@ const Login = () => {
             />
 
             <div className="submit">
-              <button id="btn-submit" className="btn btn-light" data-testid="button" type="submit">
+              <button id="btn-submit-login" className="btn btn-light" data-testid="button" type="submit">
                 Login
               </button>
             </div>
@@ -84,8 +81,8 @@ const Login = () => {
 
 
 
-      </main>
-
+      </section>
+<Footer />
     </>
   )
 

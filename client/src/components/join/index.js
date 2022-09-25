@@ -1,12 +1,11 @@
 
 import css from './join.css'
 import React, { useState } from 'react';
-import dog from '../../assets/images/dog-cartoon.png'
 import Footer from '../footer';
 import { useMutation } from '@apollo/client';
 import { ADD_USER } from '../../utils/mutations';
 import Auth from '../../utils/auth';
-import coffee from '../../assets/images/coffee.png'
+import coffee from '../../assets/images/coffee.png';
 
 
 const Join = () => {
@@ -45,12 +44,10 @@ const Join = () => {
     }
         return (
             <>
-                <main className="join-form">
-                    <div className="myForm">
 
-                        {/* <div className="card">
-                        <h4 className="card-header">Sign Up</h4>
-                        <div className="card-body"> */}
+            <section id="form_outer_container">
+                <main className="join-form">
+            
                         
                         <form className="form-style" id="form" onSubmit={handleFormSubmit}>
                         <h6 id="join">Join us for <img style={{height:"50px"}}src= {coffee} alt="coffee icon" /> </h6>  
@@ -87,14 +84,14 @@ const Join = () => {
                                 onChange={handleChange}
                             />
                            
-                            <div className="submit">
+                          
                                 <button id="btn-submit" className="btn btn-light" data-testid="button" type="submit">
                                     Submit
                                 </button>
-                            </div>
+                            
                         </form>
                        
-                    </div>
+                   
 
                     {error && <div>Signup failed</div>}
 
@@ -102,7 +99,10 @@ const Join = () => {
 
 
                 </main>
-             
+            
+           
+            </section>
+            <Footer/>
             </>
         )
 

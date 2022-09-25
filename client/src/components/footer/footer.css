@@ -2,11 +2,11 @@ footer {
   bottom: 0;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   background-color: #1b2a4c;
-  padding: 20px;
+  padding: 25px;
 
-
+height:100%;
   width: 100%;
 
 }
@@ -17,3 +17,12 @@ footer {
   text-shadow: 2px 2px black;
   color: white;
 }
+
+@media screen and (max-width: 775px) {
+
+
+  footer{
+ padding:35px;
+   }
+ 
+ }

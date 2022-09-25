@@ -1,5 +1,6 @@
 .image__1 {
-  background-image: url('../../assets/images/horizontal.jpg');
+  background:linear-gradient(0deg, rgba(30, 0, 255, 0.082), rgba(0, 47, 255, 0.233)),
+   url('../../assets/images/horizontal.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,7 +21,7 @@
 }
 
 .image__2 {
-  background-image: url('../../assets/images/mom-read.jpg');
+  background:linear-gradient(0deg, rgba(30, 0, 255, 0.082), rgba(0, 47, 255, 0.233)), url('../../assets/images/mom-read.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -76,9 +77,8 @@
 
 
 .image__3 {
-
-
-  background-image: url('../../assets/images/name.jpg');
+  background:linear-gradient(0deg, rgba(30, 0, 255, 0.082), rgba(0, 47, 255, 0.233)),
+  url('../../assets/images/name.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
