@@ -1,0 +1,21 @@
+.last-row{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+#second__row{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+@media screen and (max-width:768px) {
+    
+    #second__row{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    .last-row{
+        display:grid;
+        grid-template-columns:1fr;
+    }
+}

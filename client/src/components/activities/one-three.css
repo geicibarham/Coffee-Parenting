@@ -1,0 +1,21 @@
+
+.description-toddler{
+font-size:13px;
+background-color: pink !important;
+}
+
+#second{
+
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    @media screen and (max-width:768px) {
+        
+
+        #second{
+
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }

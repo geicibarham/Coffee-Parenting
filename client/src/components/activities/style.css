@@ -3,6 +3,8 @@
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
     column-gap: 3em;
+    margin-bottom: 40px;
+ min-height: 70vh;
 }
 
 

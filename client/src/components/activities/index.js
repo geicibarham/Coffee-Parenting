@@ -6,11 +6,11 @@ import Footer from '../footer'
 function Activities() {
     return (
         <>
-            <h3 style={{
+            <h2 style={{
                 textAlign: "center",
                 paddingTop: "10px"
             }}>
-                Create Memories!</h3>
+                Create Memories!</h2>
             <section id="outer_container">
 
 

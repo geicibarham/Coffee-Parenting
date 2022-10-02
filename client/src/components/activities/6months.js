@@ -30,7 +30,7 @@ function Sixmonths() {
                     crawling, walking and will help improve motor skills.
                 </h4>
                 < img id="baby_first_row" style={{
-
+   width: "340px",
                 }}
                     src={tummy} alt="baby doing tummy time" />
             </div>
@@ -39,7 +39,7 @@ function Sixmonths() {
             <div id="second_row">
 
                 < img style={{
-                    width: "400px", borderRadius: "20px",
+                        width: "340px", borderRadius: "20px",
                     marginBottom: "20px",
                     marginLeft: "10px"
                 }}
@@ -65,7 +65,7 @@ function Sixmonths() {
                     let them have fun!
                 </h4>
                 < img style={{
-                    width: "400px",
+                    width: "340px",
                     borderRadius: "20px",
                     marginLeft: "20px"
                 }}

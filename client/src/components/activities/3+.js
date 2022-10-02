@@ -7,6 +7,7 @@ import toddler from '../../assets/images/toddler.jpg'
 import block from '../../assets/images/blocks.jpg'
 import outdoor from '../../assets/images/outdoor.jpg'
 import React from 'react'
+import './3+.css'
 function Three() {
     return (
 
@@ -14,23 +15,15 @@ function Three() {
         <>
 
 
-            <h3 style={{
-                textAlign: "center",
-                paddingBottom: "20px",
-                paddingBottom: "20px"
-            }}>3+ Years</h3>
+            <h5>3+ Years</h5>
 
-
+            <h5>Open Ended Toys </h5>
             <section id="six-month-container">
 
 
-                <div id="text-image">
+                <div id="first_container">
 
-                    <ul style={{
-                        width: "15%", height: "fit-content",
-                        alignSelf: "center",
-                        marginRight: "20px"
-                    }} id="activity-list">
+                    <ul id="activity-list">
 
 
                         <Link to="/sixmonths">0-6 Months</Link>  < br /> < br />
@@ -41,16 +34,9 @@ function Three() {
                     </ul>
 
 
-                    < br />
-                    < br />
-                    <p style={{
-                        alignSelf: "center",
-                        width: "50%"
-                    }}>
-                        <h4 style={{
-                            textAlign: "center",
-                            paddingTop: "20px"
-                        }}>Open Ended Toys</h4>
+
+                    <span style={{ fontSize: "15px",
+                textAlign:"center"}}>
                         As your toddler grows, you will notice a much more understanding child that is more
                         used to the routine and family rules.
                         With a broader vocabulary, your child is now able to better communicate their needs.
@@ -58,66 +44,53 @@ function Three() {
                         and creativity.
                         Open-ended toys work fine, gross, large, and cognitive skills. Some examples of open-ended toys are
                         blocks, cars, magnetic tiles, costumes, and our favorite: Cardboard Boxes.
+                    </span>
 
 
-                    </p>
                     < img style={{
-                        width: "400px",
+                  width: "330px",
                         borderRadius: "20px",
-                        marginLeft: "10px"
+
                     }}
                         src={block} alt="kid playing with blocks" />
                 </div>
 
 
 
-                <h4 style={{
-                    textAlign: "center",
-                    paddingTop: "20px",
-                    paddingBottom: "20px"
-                }}>Quiet Time</h4>
-                <div id="text-image">
+                <h5>Quiet Time</h5>
+                <div id="second__row">
 
                     < img style={{
-                        width: "400px",
+                        width: "330px",
                         borderRadius: "20px",
-                        marginRight: "20px"
+                        marginLeft:"10px"
+                       
                     }}
                         src={draw} alt="kids drawing" />
-                    <h4 style={{
-                        width: "50%",
-                        alignSelf: "center",
-                        color: "black",
-                        fontWeight: "lighter"
+                    <span style={{ fontSize: "15px" ,
+                    alignSelf:"center",
+                    width:"80%",textAlign:"center"
                     }}>
                         Quiet time is a period in the afternoon where children play independently, with low-key activities,
                         it enhances self-confidence, and creativity and gives parents a chance to drink their coffee without
                         being asked "but why" 100 times.  < br />
-                        If your child is transitioning from naps, (we have all been there), quiet time can be helpful to recuperate and 
+                        If your child is transitioning from naps, (we have all been there), quiet time can be helpful to recuperate and
                         recharge a little bit. < br />
-                        We recommend starting with 15 minutes and increasing the time gradually. For low-key activities, you can 
+                        We recommend starting with 15 minutes and increasing the time gradually. For low-key activities, you can
                         have sensory bins set up, coloring books, stickers, and blocks.
 
-                    </h4>
+                    </span>
 
                 </div>
 
-                <h4 style={{
-                    textAlign: "center",
-                    paddingTop: "20px"
-                }}>Tips and Tricks</h4>
-                <div className='tips'>
+                <h5>Tips and Tricks</h5>
+                <div className='last-row'>
 
-
-
-
-                    <h4 style={{
-
-                        width: "50%", alignSelf: "center",
-                        color: "black",
-                        fontWeight: "lighter"
+                    <span
+                    style={{fontSize:"15px",
+                    textAlign:"center",
                     }}>
-                      
+
                         ✔️Teach responsibility in small steps, starting with simple things like picking up their toys.< br /> < br />
                         ✔️Outdoor time is still important as sunlight helps produde adequate levels of vitamin D
                         which is essential for bone development and growth.
@@ -125,21 +98,23 @@ function Three() {
                         < br />
 
                         ✔️ Limit screen time, as that can lead to irregular sleep, impaired academic performance and behavioral problems.
-                        
+
 
                         < br />
                         < br />
 
 
-                    </h4>
-                    <div>
+                    </span>
+                   
                         < img style={{
-                            width: "400px", borderRadius: "20px",
+                            width: "330px",
+                             borderRadius: "20px",
                             marginLeft: "20px",
-                            float: "right"
+                            marginBottom:"20px"
+                           
                         }}
                             src={outdoor} alt="toddler climbing  stairs" />
-                    </div>
+
 
                 </div>
             </section>
