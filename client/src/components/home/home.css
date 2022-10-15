@@ -32,3 +32,11 @@
         padding: 100px;
     }
 }
+
+@media screen and (min-width: 1200px) {
+
+    .middle {
+        min-height: 40vh;
+    }
+}
+
