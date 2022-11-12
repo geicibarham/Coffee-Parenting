@@ -1,5 +1,4 @@
-
-import React,{ useState, useContext } from "react";
+import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
 import Auth from "../../utils/auth";
@@ -7,33 +6,23 @@ import { NavLink } from "react-router-dom";
 import coffee from "../../assets/images/coffee-grains.png";
 import randomColor from "randomcolor";
 import DrawerNav from "./drawer";
-import Test from "./test";
+
 function Nav() {
-  // <style>
-  //   @import
-  //   url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
-  // </style>;
   const logout = (event) => {
     event.preventDefault();
     Auth.logout();
   };
 
-  const [test, setTest] = useState(false)
-
-  const change = () => {
-    setTest(true)
-  }
   return (
     <nav id="main-nav">
-      <h3 id="title">
+      <h1 id="title">
         <img id="grains" src={coffee} alt="coffee grains" />
         <NavLink id="coffee" className="titleBtnLink" to="/">
           Coffee & Parenting
         </NavLink>
-      </h3>
+      </h1>
 
       <ul id="nav-list">
-
         {Auth.loggedIn() && (
           <>
             <li id="logout" className="navBtn">
@@ -48,18 +37,10 @@ function Nav() {
               </p>
             </Link>
           </>
-
-
         )}
-        {/* <button onClick={change}>test</button> */}
-
-        {test &&
-          <Test />
-        }
-
         <a
           id="menu"
-          href="#"
+          href="#navbar"
           data-target="mobile-nav"
           className="sidenav-trigger hide-on-large-only"
         >
@@ -67,7 +48,6 @@ function Nav() {
         </a>
       </ul>
     </nav>
-
   );
 }
 

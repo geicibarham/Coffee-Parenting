@@ -5,7 +5,7 @@ const Footer = () => {
         <>
 
        <footer id="landing-footer">
-            <h6 id="madeBy">Made By Geiciane Barham 2022 ©</h6>
+            <p id="madeBy">Made By Geiciane Barham 2022 ©</p>
         
         </footer>
         </>

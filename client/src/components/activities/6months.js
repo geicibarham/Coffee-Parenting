@@ -23,19 +23,19 @@ function Sixmonths() {
 
 
                 </ul>
-                <h4>
+                <p className='description'>
                     At this age it is very important to strengthen
                     core and neck muscles, as that will be the foundation
                     for sitting,
                     crawling, walking and will help improve motor skills.
-                </h4>
+                </p>
                 < img id="baby_first_row" style={{
    width: "340px",
                 }}
                     src={tummy} alt="baby doing tummy time" />
             </div>
 
-            <h4 className='title'>Tips and Tricks</h4>
+            <h2 className='title'>Tips and Tricks</h2>
             <div id="second_row">
 
                 < img style={{
@@ -45,29 +45,30 @@ function Sixmonths() {
                 }}
                     src={play} alt="baby doing tummy time" />
 
-                <h4 >
+                <p className='description' >
                     Some tips and tricks for making tummy time more enjoyable
                     for baby is reading books, listening to songs and traveling tummy time.
                     To do traveling tummy time, simply place baby facing down on your
                     arms and walk around the house, telling baby a story, singing on
                     simply describe what you see.
-                </h4>
+                </p>
             </div>
 
 
-            <h4 className="title">
-                Tummy Time and Water</h4>
+            <h2 className="title">
+                Tummy Time and Water</h2>
 
             <div id="last_row">
-                <h4>
+                <p className='description'>
                     Babies love water!
                     Put water on a baking sheet with baby's favorite toys and
                     let them have fun!
-                </h4>
+                </p>
                 < img style={{
                     width: "340px",
                     borderRadius: "20px",
-                    marginLeft: "20px"
+                    marginLeft: "20px",
+                    marginBottom:"20px"
                 }}
                     src={water} alt="baby doing tummy time" />
             </div>

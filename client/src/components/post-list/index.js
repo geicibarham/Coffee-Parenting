@@ -13,10 +13,6 @@ import { QUERY_POSTS } from "../../utils/queries";
 const PostList = ({ username, posts, title }) => {
   const [addvote, { error }] = useMutation(ADD_VOTE)
   const [addFlag] = useMutation(ADD_FLAG)
-
-  // if (!posts.length) {
-  //   return <h3>No posts Yet</h3>;
-  // }
   const handleVote = async (postId) => {
     console.log(postId)
     try {
@@ -59,7 +55,7 @@ const PostList = ({ username, posts, title }) => {
     return (
       <>
         < br />
-        <h5> No posts yet!</h5>
+        <h2> No posts yet!</h2>
       </>
     )
   }

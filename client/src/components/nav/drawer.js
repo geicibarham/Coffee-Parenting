@@ -86,7 +86,7 @@ export default function DrawerNav() {
       {["right"].map((anchor) => (
         <Fragment key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)}>
-            <img id="button__icon" src={menu} />
+            <img id="button__icon" src={menu} alt="menu icon" />
           </Button>
           <Drawer
             anchor={anchor}

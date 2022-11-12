@@ -46,7 +46,6 @@ const PostCard = ({ username,post, handleFlag, handleVote }) => {
                 &nbsp;  &nbsp;
 
 
-
                 <img onClick={() => 
                 handleFlag(post._id)} class="icon" 
                 style={{ height: "30px" }} src={omg}

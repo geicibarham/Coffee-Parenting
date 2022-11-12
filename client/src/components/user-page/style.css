@@ -6,6 +6,9 @@ h1 {
 }
 
 
+.createNewpost{
+  text-align: center;
+}
 #outer__container {
   display: flex;
   flex-wrap: nowrap;
