@@ -1,7 +1,4 @@
-
-
 .join-form {
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
@@ -9,25 +6,20 @@
 }
 
 #join {
- color: white;
- text-align: center;
+  color: white;
+  text-align: center;
 }
 
 #form_outer_container {
-  min-height: 80vh;
-  background-image: url('../../assets/images/iStock-534551452.jpg');
-  background-size:cover;
+  min-height: 85vh;
+  background-image: url("../../assets/images/iStock-534551452.jpg");
+  background-size: cover;
   background-attachment: fixed;
-background-repeat: no-repeat;
-margin-bottom: 0px;
-
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
 }
 
-
-
-
 .form-style {
-
   padding: 20px;
   margin: 3.5%;
   border-radius: 15px;
@@ -37,31 +29,24 @@ margin-bottom: 0px;
   grid-column-start: 1;
   grid-column-end: -1;
   width: 40%;
-
   background-color: #026989eb;
-
 }
 
-
-#btn-submit{
-  background-color:  #1b2a4c;;
-  border:none;
-  color:white;
+#btn-submit {
+  background-color: #1b2a4c;
+  border: none;
+  color: white;
 }
 .form-input {
-  background-color:#f0f8ff;
-
-
+  background-color: #f0f8ff;
   border-radius: 10px;
   padding: 7px 15px;
   font-size: 16px;
   width: 100%;
   margin-bottom: 15px;
-  color: purple !important;  
+  color: purple !important;
   font-weight: bold !important;
 }
-
-
 
 #warn {
   color: #774c2a;
@@ -69,26 +54,14 @@ margin-bottom: 0px;
   padding-bottom: 10px;
 }
 
-
-
-
 #btn-submit:hover {
   background-color: #bbe4e9;
   color: black;
 }
 
 @media screen and (max-width: 775px) {
-
-
- .form-style{
-width: 70%;
-margin-top: 80px;
-
+  .form-style {
+    width: 70%;
+    margin-top: 80px;
   }
-
-  /* #form_outer_container{
- display:flex;
- align-items: flex-start;
- justify-content: center;
-  } */
 }

@@ -1,42 +1,37 @@
 .middle {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
 
-    align-content: flex-start;
-
+  align-content: flex-start;
 }
 
 .btn__landing {
-    width: 80px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    border: none;
-    background-color: #1b2a4c;
-    color: white;
-    margin-right: 10px;
-    margin-bottom: 40px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+  width: 80px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1b2a4c;
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn__landing :hover {
-    opacity: 0
+  opacity: 0;
 }
 
 @media screen and (max-width: 775px) {
-
-    .middle {
-        padding: 100px;
-    }
+  .middle {
+    padding: 110px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-
-    .middle {
-        min-height: 40vh;
-    }
+  .middle {
+    min-height: 40vh;
+  }
 }
-

@@ -78,9 +78,7 @@ function OneThree() {
 
         <h5>Tips And Tricks</h5>
         <div className="tips">
-          <p className="list"
-        
-          >
+          <p className="list">
             Some tips and tricks for handling meltdowns and tantrums are: <br />{" "}
             <br />
             ✔️Consistent schedule: Offering a consistent schedule ensures their
